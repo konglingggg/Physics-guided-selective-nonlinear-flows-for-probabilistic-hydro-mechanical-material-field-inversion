@@ -18,7 +18,7 @@ N=2048;SEED=742480
 MODES=['C73_HMBlockSVDWhiten','BalancedAffine','FisherSpline','HMInfoSpline','RandomSpline']
 SEEDS=[641133,641134,641135]
 torch.set_num_threads(1)
-fresh=P/'frozen_independent2048.npz'
+fresh=P.parent.parent/'data'/'cohorts'/'cohort_A_2048.npz'
 if not fresh.exists():
     rg=np.random.default_rng(SEED);z=[];y=[];start=time.time()
     for i in range(N):
@@ -55,7 +55,7 @@ for seed in SEEDS:
             Z0,Mu0,Ar0=X0,M0,A0
         else:
             net=P4.build_net(mode,seed)
-            ck=P/'checkpoints'/f'{mode}_seed{seed}.pt'
+            ck=P.parent.parent/'checkpoints'/'c74_p4'/f'{mode}_seed{seed}.pt'
             Z0,Mu0,Ar0=X,M,A
         net.load_state_dict(torch.load(ck,weights_only=True,map_location='cpu'))
         net.eval()

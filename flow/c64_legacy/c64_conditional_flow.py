@@ -12,7 +12,7 @@ from scipy.linalg import cho_factor,cho_solve
 import torch
 from torch import nn
 HERE=Path(__file__).resolve().parent
-sys.path.insert(0,str(HERE/'c32_original'))
+sys.path.insert(0,str(HERE.parent.parent/'solver'))
 import biot_mechanism_audit as B
 import c32_linked_storage_audit as C
 

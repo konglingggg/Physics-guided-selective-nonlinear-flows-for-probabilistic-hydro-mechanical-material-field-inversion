@@ -15,15 +15,17 @@ import pandas as pd
 import torch
 from torch import nn
 ROOT=Path(__file__).resolve().parent
-C72=(ROOT/'deps'/'C72_InformationGeometry_Pilot_20261111' if (ROOT/'deps'/'C72_InformationGeometry_Pilot_20261111').exists() else Path('/mnt/data/C72_InformationGeometry_Pilot_20261111'))
-sys.path.insert(0,str(C72/'inputs'/'C69_Amortized_Likelihood_20261111'))
+C69=ROOT.parent/'c69'
+if not C69.exists():
+    C69=Path(os.environ.get('AI4THMC_C69_ROOT',str(C69)))
+sys.path.insert(0,str(C69))
 import c69_joint_flow as JF
 G=JF.G
 D=JF.data
 torch.set_num_threads(1)
 A,feat,logdet,_=JF.init_joint(D,'J')
 mu,ctx=feat(D['y']);z=D['z']
-phys=np.load(C72/'fisher_basis.npz')
+phys=np.load(C69/'fisher_basis.npz')
 V=phys['V'].astype('float64');ev=phys['eigenvalues']
 AH=phys['AH'].astype('float64');AM=phys['AM'].astype('float64')
 h=np.square(AH@V).sum(0); m=np.square(AM@V).sum(0)

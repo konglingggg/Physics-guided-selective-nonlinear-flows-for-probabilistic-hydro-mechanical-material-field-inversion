@@ -22,7 +22,7 @@ import pandas as pd
 import torch
 from torch import nn
 P=Path(__file__).resolve().parent
-C73=Path(os.environ.get('AI4THMC_C73_ROOT',str(P.parent/'C73_HM_Information_Routing_20261111')))
+C73=Path(os.environ.get('AI4THMC_C73_ROOT',str(P.parent/'c73')))
 sys.path.insert(0,str(C73))
 import c73_route_flow as CF
 import c73_dual_geometry_flow as DG

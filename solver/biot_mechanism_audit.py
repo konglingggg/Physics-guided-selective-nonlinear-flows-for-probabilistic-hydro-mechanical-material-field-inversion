@@ -1,9 +1,21 @@
 #!/usr/bin/env python3
-"""Independent, explicitly labeled numerical Biot HM mechanism audit.
+"""C32 Biot solver - the reference implementation used for all reported results.
+
 Physical discretization: 2-D square, 16x16 nodal fields, homogeneous Dirichlet
 p and u at the perimeter, monolithic backward Euler 3 steps, linear isotropic
-elastic skeleton with fixed Poisson's ratio; nonlinear dependence on log k/E.
-Does NOT reproduce any prior V-series/Pilot solver.
+elastic skeleton with fixed Poisson's ratio (nu = 0.25); nonlinear dependence
+on log k and log E.
+
+This module is the canonical solver for every dataset in the manuscript. It was
+originally written as an independent re-implementation that replaced the earlier
+V-series pilot solver, and subsequently became the C32 baseline imported by the
+entire C64 -> C69 -> C73 -> C74 analysis chain.
+
+Entry points
+------------
+build_matrix(mk, me, alpha)  assemble the 588 x 588 coupled block system
+forward(mk, me, alpha)       forward solve; returns y and the 90 x 512 Jacobian
+check_tangent(mk, me, alpha) centered-difference audit behind Table 3 / Fig. 2
 """
 import os, json, csv, time
 from pathlib import Path

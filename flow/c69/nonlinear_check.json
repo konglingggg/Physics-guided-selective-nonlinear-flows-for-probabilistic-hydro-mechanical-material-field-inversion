@@ -1,0 +1,46 @@
+{
+  "H": {
+    "mode": "H",
+    "original_C32_true_likelihood": true,
+    "approximate_samples": 192,
+    "nonlinear_reference_samples": 800,
+    "generator_predictive_whitened_obs_RMSE_median": 1.1713826226427404,
+    "nonlinear_MH_reference_predictive_whitened_obs_RMSE_median": 1.0534627496650366,
+    "generator_vs_reference_mean_field_RMSE_logk_logE": [
+      0.14797276784754074,
+      0.05120370511866302
+    ],
+    "flow_independence_MH_acceptance_2_chains": [
+      0.056,
+      0.013333333333333334
+    ],
+    "flow_MH_ESS_first_three_z": [
+      6.553474202028548,
+      3.3949251754264864,
+      4.831536357903987
+    ],
+    "disclaimer": "one conditioned observation, finite MH chains; reference MAP-tangent proposal itself had finite ESS. No claim of posterior convergence, coverage on one observation, or flow outperforming exact sampling."
+  },
+  "M": {
+    "mode": "M",
+    "original_C32_true_likelihood": true,
+    "approximate_samples": 192,
+    "nonlinear_reference_samples": 868,
+    "generator_predictive_whitened_obs_RMSE_median": 1.1669638398670796,
+    "nonlinear_MH_reference_predictive_whitened_obs_RMSE_median": 0.99741016834971,
+    "generator_vs_reference_mean_field_RMSE_logk_logE": [
+      0.08903073037859202,
+      0.07479707558684773
+    ],
+    "flow_independence_MH_acceptance_2_chains": [
+      0.058666666666666666,
+      0.006666666666666667
+    ],
+    "flow_MH_ESS_first_three_z": [
+      26.489404108298174,
+      23.18496175395119,
+      4.647295089132254
+    ],
+    "disclaimer": "one conditioned observation, finite MH chains; reference MAP-tangent proposal itself had finite ESS. No claim of posterior convergence, coverage on one observation, or flow outperforming exact sampling."
+  }
+}

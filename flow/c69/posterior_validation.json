@@ -1,0 +1,36 @@
+{
+  "H": {
+    "mode": "H",
+    "test_pairs": 240,
+    "n_field_sites": 16,
+    "draws_per_observation": 128,
+    "delta_flow_minus_tangent_logscore_mean": -1.1810353994369507,
+    "delta_95pct_bootstrap_CI": [
+      -1.9142800182104112,
+      -0.564512836933136
+    ],
+    "flow_logscore_better_fraction": 0.5708333333333333,
+    "tangent_90pct_field_coverage": 0.8903645833333333,
+    "flow_90pct_field_coverage": 0.88984375,
+    "tangent_field16_mean_MSE": 0.2390328347682953,
+    "flow_field16_mean_MSE": 0.23890694975852966,
+    "note": "Coverage averaged over 16 preselected physical material locations across 240 independent prior-predictive test problems; 128 posterior draws per problem. These are amortized coverage diagnostics, not posterior validity for a specific observation."
+  },
+  "M": {
+    "mode": "M",
+    "test_pairs": 240,
+    "n_field_sites": 16,
+    "draws_per_observation": 128,
+    "delta_flow_minus_tangent_logscore_mean": -3.5033979415893555,
+    "delta_95pct_bootstrap_CI": [
+      -4.247323107719422,
+      -2.7319147050380708
+    ],
+    "flow_logscore_better_fraction": 0.7208333333333333,
+    "tangent_90pct_field_coverage": 0.8786458333333333,
+    "flow_90pct_field_coverage": 0.88125,
+    "tangent_field16_mean_MSE": 0.20044270157814026,
+    "flow_field16_mean_MSE": 0.20028682053089142,
+    "note": "Coverage averaged over 16 preselected physical material locations across 240 independent prior-predictive test problems; 128 posterior draws per problem. These are amortized coverage diagnostics, not posterior validity for a specific observation."
+  }
+}

@@ -18,10 +18,37 @@ which contains the earlier C73/C74 reproduction archive. See
 | C74  | Conditional-flow implementation used for the P4/P5 fairness and strong-baseline experiments |
 | M1   | Material configuration used by the C32 solver |
 
+
+## Where is the solver?
+
+The C32 Biot solver lives in `solver/biot_mechanism_audit.py`. Despite the
+"audit" in its filename, this is the production solver: it generates every
+dataset reported in the manuscript and is imported by the full analysis chain
+
+    c74_p4_frozen_biot_test.py
+      -> c74_p4_spline_flow.py
+        -> c73_route_flow.py
+          -> c69_joint_flow.py
+            -> c64_conditional_flow.py
+              -> import biot_mechanism_audit as B
+              -> import c32_linked_storage_audit as C
+
+Key entry points:
+
+| Function | Purpose |
+|---|---|
+| `build_matrix(mk, me, alpha)` | assembles the 588 x 588 coupled block system |
+| `forward(mk, me, alpha)` | forward solve, returns `y` and the 90 x 512 Jacobian |
+| `check_tangent(mk, me, alpha)` | centered-difference audit reported in Table 3 / Fig. 2 |
+
+The material-tangent check uses four random prior-whitened directions at step
+size `h = 1e-4`, matching Section 3.5 of the manuscript.
+
 ## What is here
 
 ```
-solver/                    C32 mechanism audit + linked-storage audit (NumPy/SciPy)
+solver/                    C32 Biot solver + linked-storage audit (NumPy/SciPy)
+flow/c69/                  C69 joint flow, C64 dataset and H/M flow weights
 flow/c73/                  C73 dual-geometry flow, frozen confirmation, analysis
 flow/c74_p4/               C74-P4 physics-allocated spline models (Cohort A)
 flow/c74_p5/               C74-P5 strong full-spline baselines (Cohort B)
@@ -31,6 +58,7 @@ checkpoints/c74_p5/        P5 model weights (3 seeds per model)
 checkpoints/fairness/      learning-rate-audit weights
 checkpoints/cohortD/       random-mask weights (5 masks × 3 seeds)
 data/cohorts/              Cohort A (2,048), B (1,024), C (1,024), D (1,024)
+data/splits/               development/validation/confirmation index JSON
 results/table5..table10    frozen result tables
 results/fairness/          learning-rate grid and Cohort C contrasts
 results/cohortD/           Cohort D per-case and paired statistics
@@ -44,7 +72,7 @@ figures/                   journal figure scripts (Fig. 1–10)
 |---|---|---|
 | `results/table5_cohortA.csv` | Table 5 | `flow/c74_p4/frozen2048_mean_seeds.csv` |
 | `results/table6_cohortB.csv` | Table 6 | `flow/c74_p5/P5_summary.json` |
-| `results/table7_fairness.csv` | Table 7 (reconstructed) | `results/fairness/development_lr_selection.csv` + `cohortC_paired_statistics.csv` |
+| `results/table7_fairness.csv` | Table 7 (tidy reconstruction) | `results/fairness/development_lr_selection.csv` + `cohortC_paired_statistics.csv` |
 | `results/table8_cohortD.csv` | Table 8 | `results/cohortD/cohortD_paired_statistics.csv` |
 | `results/table9_paired.csv` | Table 9 | `flow/c74_p5/primary_confirmation_full_statistics.csv` |
 | `results/table10_frequency.csv` | Table 10 | P4/P5 paired win frequencies |
@@ -101,3 +129,11 @@ third-party datasets were used.
 ## Licence
 
 MIT (see `LICENSE`).
+
+## Table 7 note
+
+`results/table7_fairness.csv` is a tidy reorganization that merges the
+learning-rate audit with the Cohort C comparison. It reproduces the values
+printed in Table 7 of the manuscript, but it is not a verbatim export of the
+original per-run log; the underlying per-run records are in
+`results/fairness/`.

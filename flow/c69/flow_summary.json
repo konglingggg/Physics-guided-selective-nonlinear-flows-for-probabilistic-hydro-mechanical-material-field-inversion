@@ -1,0 +1,30 @@
+{
+  "H": {
+    "mode": "H",
+    "nobs": 42,
+    "train_pairs": 1600,
+    "val_pairs": 240,
+    "test_pairs": 240,
+    "best_epoch": 3,
+    "test_baseline_tangent_nll_wo_const": 257.2275085449219,
+    "test_conditional_flow_nll_wo_const": 256.0465087890625,
+    "nll_improvement_flow_minus_tangent": -1.180999755859375,
+    "n_parameters": 287488,
+    "train_seconds": 4.207906246185303,
+    "disclaimer": "NLL is joint-predictive conditional proper log score at heldout simulated (m,y) pairs. Lower is better; not nonlinear exact posterior KL."
+  },
+  "M": {
+    "mode": "M",
+    "nobs": 48,
+    "train_pairs": 1600,
+    "val_pairs": 240,
+    "test_pairs": 240,
+    "best_epoch": 1,
+    "test_baseline_tangent_nll_wo_const": 276.0183410644531,
+    "test_conditional_flow_nll_wo_const": 272.51495361328125,
+    "nll_improvement_flow_minus_tangent": -3.503387451171875,
+    "n_parameters": 289408,
+    "train_seconds": 4.064691066741943,
+    "disclaimer": "NLL is joint-predictive conditional proper log score at heldout simulated (m,y) pairs. Lower is better; not nonlinear exact posterior KL."
+  }
+}
