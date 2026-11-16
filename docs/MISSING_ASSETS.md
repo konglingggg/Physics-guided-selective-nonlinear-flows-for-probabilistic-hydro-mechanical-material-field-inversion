@@ -12,7 +12,7 @@
 ## Release checklist
 
 - Checkpoints are ~60 MB; use Git LFS or a Zenodo DOI for the public release.
-- All Python `/mnt/data` references have been removed; the only remaining
-  absolute strings are historical `checkpoint` columns inside archived CSVs.
+- Absolute authoring paths have been removed from Python, CSV and JSON files;
+  `tools/check_paths.py` enforces this.
 - Confirm the Cohort A = P4 `frozen_independent2048.npz` and Cohort B = P5
   `cohort_fresh1024_tuned_confirm.npz` mapping against the manuscript.

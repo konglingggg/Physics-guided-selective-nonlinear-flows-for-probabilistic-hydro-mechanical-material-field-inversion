@@ -8,5 +8,5 @@
 - `c64_legacy/` — earlier C64 conditional-flow implementation retained for
   provenance.
 
-Scripts expect the original `/mnt/data/...` archive layout; adjust the data and
-checkpoint roots before running on a new machine.
+Scripts resolve data and checkpoints relative to this repository; override with
+`AI4THMC_C73_ROOT` / `AI4THMC_C69_ROOT` if the archive lives elsewhere.

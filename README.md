@@ -116,8 +116,8 @@ python c74_p5_tuned_full_spline.py
 python c74_p5_analysis.py
 ```
 
-The archived scripts contain absolute paths from the original machine
-(`/mnt/data/...`). Edit the data/checkpoint roots before running.
+No authoring-machine absolute paths remain. If you move the archive outside
+this repository, set `AI4THMC_C73_ROOT` and `AI4THMC_C69_ROOT` accordingly.
 
 ## Environment
 
