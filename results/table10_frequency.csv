@@ -1,5 +1,5 @@
-case,improvement_frequency
-A: affine,0.6895
-A: random spline,0.8037
-B: matched full spline,0.7871
-B: tuned wider full spline,0.7598
+cohort,comparison,improvement_frequency
+A,FisherSpline vs frozen affine,0.6895
+A,FisherSpline vs RandomSpline,0.8037
+B,FisherSpline vs FullSplineMatched,0.7871
+B,FisherSpline vs FullSplineWide,0.7598

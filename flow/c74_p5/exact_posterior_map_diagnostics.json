@@ -1,0 +1,98 @@
+[
+  {
+    "case": 3,
+    "objective": 53.04056207077163,
+    "grad_norm": 2.544939089126212e-06,
+    "lbfgs_success": true,
+    "lbfgs_iterations": 93,
+    "calls": {
+      "jac": 105,
+      "forward": 1
+    },
+    "seconds": 7.212975740432739,
+    "gn_trace": [
+      {
+        "step": 0,
+        "objective": 53.04056207085593,
+        "gradient_norm": 2.67046680001509e-05
+      },
+      {
+        "step": 1,
+        "objective": 53.04056207077163,
+        "gradient_norm": 2.544939089126212e-06
+      }
+    ]
+  },
+  {
+    "case": 17,
+    "objective": 37.93055935936191,
+    "grad_norm": 2.029375243942909e-06,
+    "lbfgs_success": true,
+    "lbfgs_iterations": 72,
+    "calls": {
+      "jac": 82,
+      "forward": 1
+    },
+    "seconds": 5.6246302127838135,
+    "gn_trace": [
+      {
+        "step": 0,
+        "objective": 37.930559359474564,
+        "gradient_norm": 5.4818083475916733e-05
+      },
+      {
+        "step": 1,
+        "objective": 37.93055935936191,
+        "gradient_norm": 2.029375243942909e-06
+      }
+    ]
+  },
+  {
+    "case": 71,
+    "objective": 54.381735182125375,
+    "grad_norm": 6.7918267710831055e-06,
+    "lbfgs_success": true,
+    "lbfgs_iterations": 75,
+    "calls": {
+      "jac": 87,
+      "forward": 1
+    },
+    "seconds": 6.11719536781311,
+    "gn_trace": [
+      {
+        "step": 0,
+        "objective": 54.38173518230086,
+        "gradient_norm": 3.750414324245131e-05
+      },
+      {
+        "step": 1,
+        "objective": 54.381735182125375,
+        "gradient_norm": 6.7918267710831055e-06
+      }
+    ]
+  },
+  {
+    "case": 143,
+    "objective": 47.39170404360758,
+    "grad_norm": 1.9144026520738196e-05,
+    "lbfgs_success": false,
+    "lbfgs_iterations": 100,
+    "calls": {
+      "jac": 116,
+      "forward": 1
+    },
+    "seconds": 8.01174259185791,
+    "gn_trace": [
+      {
+        "step": 0,
+        "objective": 47.391704048599856,
+        "gradient_norm": 0.0003274640258234637
+      },
+      {
+        "step": 1,
+        "objective": 47.39170404360758,
+        "gradient_norm": 1.9144026520738196e-05
+      }
+    ]
+  }
+]

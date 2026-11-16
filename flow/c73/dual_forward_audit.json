@@ -1,0 +1,7 @@
+{
+  "new_independent_truths": 2048,
+  "seed": 731960,
+  "forward_solver": "C32 original",
+  "physics_runs": 2048,
+  "seconds": 13.75015926361084
+}

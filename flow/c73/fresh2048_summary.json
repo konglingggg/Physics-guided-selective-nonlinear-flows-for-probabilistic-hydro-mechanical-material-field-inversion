@@ -1,0 +1,57 @@
+{
+  "fresh_seed": 731900,
+  "n_fresh_truths": 2048,
+  "n_train_initializations": 3,
+  "independent_test_selected_after_validation": true,
+  "metric": "proper conditional NLL up to universal Gaussian constant; smaller better",
+  "means": {
+    "Gaussian": 255.82489013671875,
+    "C69_JointFlow": 247.33200073242188,
+    "Fisher": 242.66432189941406,
+    "HMComplementary": 242.49021911621094,
+    "HM_Route": 242.57058715820312,
+    "HM_ShuffledRoute": 242.49176025390625
+  },
+  "primary_paired_tests": [
+    {
+      "candidate": "HM_Route",
+      "reference": "Fisher",
+      "n_independent_Biot_truths": 2048,
+      "mean_NLL_delta": -0.09372889995574951,
+      "ci95_low": -0.3471045592799783,
+      "ci95_high": 0.15144797451794145,
+      "better_truths": 1044,
+      "mean_base": 242.66432189941406,
+      "mean_candidate": 242.57058715820312,
+      "signflip_p": 0.4660889851691385,
+      "holm_p": 1.0
+    },
+    {
+      "candidate": "HM_Route",
+      "reference": "HMComplementary",
+      "n_independent_Biot_truths": 2048,
+      "mean_NLL_delta": 0.08036539703607559,
+      "ci95_low": -0.11430582515895367,
+      "ci95_high": 0.281701368652284,
+      "better_truths": 1111,
+      "mean_base": 242.49021911621094,
+      "mean_candidate": 242.57058715820312,
+      "signflip_p": 0.424262622896184,
+      "holm_p": 1.0
+    },
+    {
+      "candidate": "HM_Route",
+      "reference": "HM_ShuffledRoute",
+      "n_independent_Biot_truths": 2048,
+      "mean_NLL_delta": 0.07881999760866165,
+      "ci95_low": -0.11447187010198831,
+      "ci95_high": 0.2889146426692604,
+      "better_truths": 1106,
+      "mean_base": 242.49176025390625,
+      "mean_candidate": 242.57058715820312,
+      "signflip_p": 0.44042659556740543,
+      "holm_p": 1.0
+    }
+  ],
+  "disclaimer": "Synthetic original C32 Biot independent field/noise cohort at same physics regime. Conditional heldout log-score, not exact nonlinear posterior calibration, and does not establish method originality."
+}

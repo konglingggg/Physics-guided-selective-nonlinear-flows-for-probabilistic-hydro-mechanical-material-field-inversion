@@ -1,0 +1,26 @@
+[
+  {
+    "case": 71,
+    "objective": 54.381735182125375,
+    "grad_norm": 6.7918267710831055e-06,
+    "lbfgs_success": true,
+    "lbfgs_iterations": 75,
+    "calls": {
+      "jac": 87,
+      "forward": 1
+    },
+    "seconds": 6.11719536781311,
+    "gn_trace": [
+      {
+        "step": 0,
+        "objective": 54.38173518230086,
+        "gradient_norm": 3.750414324245131e-05
+      },
+      {
+        "step": 1,
+        "objective": 54.381735182125375,
+        "gradient_norm": 6.7918267710831055e-06
+      }
+    ]
+  }
+]

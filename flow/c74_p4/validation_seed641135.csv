@@ -1,0 +1,5 @@
+mode,seed,n_parameters,epochs,best_epoch,val_nll,train_seconds,inverse_error,ld_consistency_error,checkpoint
+BalancedAffine,641135,302848,8,4,240.1588897705078,2.3,4.76837158203125e-07,,/mnt/data/C74_P4_PhysicsAllocated_Spline_20261111/checkpoints/BalancedAffine_seed641135.pt
+FisherSpline,641135,303280,8,2,238.1911163330078,3.79,1.1622905731201172e-06,1.9073486328125e-06,/mnt/data/C74_P4_PhysicsAllocated_Spline_20261111/checkpoints/FisherSpline_seed641135.pt
+HMInfoSpline,641135,303280,8,2,238.2057342529297,3.88,1.1622905731201172e-06,1.9073486328125e-06,/mnt/data/C74_P4_PhysicsAllocated_Spline_20261111/checkpoints/HMInfoSpline_seed641135.pt
+RandomSpline,641135,303280,8,4,241.57052612304688,3.94,1.1920928955078125e-06,1.430511474609375e-06,/mnt/data/C74_P4_PhysicsAllocated_Spline_20261111/checkpoints/RandomSpline_seed641135.pt

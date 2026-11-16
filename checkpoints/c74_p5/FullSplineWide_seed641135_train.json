@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "mode": "FullSplineWide",
+    "seed": 641135,
+    "parameters": 1004848,
+    "best_epoch": 1,
+    "val_nll": 240.80125427246094,
+    "seconds": 15.641,
+    "inverse_error": 7.152557373046875e-07,
+    "logdet_consistency_error": 3.814697265625e-06,
+    "checkpoint": "/mnt/data/C74_P5_StrongBaselines_20261111/checkpoints/FullSplineWide_seed641135.pt"
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "val_nll": 240.80125427246094
+    },
+    {
+      "epoch": 2,
+      "val_nll": 241.0131072998047
+    },
+    {
+      "epoch": 3,
+      "val_nll": 243.6968536376953
+    },
+    {
+      "epoch": 4,
+      "val_nll": 248.01983642578125
+    },
+    {
+      "epoch": 5,
+      "val_nll": 253.3489227294922
+    },
+    {
+      "epoch": 6,
+      "val_nll": 258.5418395996094
+    },
+    {
+      "epoch": 7,
+      "val_nll": 264.543212890625
+    },
+    {
+      "epoch": 8,
+      "val_nll": 270.4908447265625
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+mode,seed,n_parameters,best_epoch,val_nll,old_C64_pilot_nll,seconds,checkpoint
+SensorDiagNorm,641133,302848,3,242.0669403076172,239.35498046875,7.580374240875244,/mnt/data/C73_HM_Information_Routing_20261111/dual_checkpoints/SensorDiagNorm_seed641133.pt
+RandomBlockWhiten,641133,302848,4,241.00721740722656,237.1218719482422,6.214789867401123,/mnt/data/C73_HM_Information_Routing_20261111/dual_checkpoints/RandomBlockWhiten_seed641133.pt

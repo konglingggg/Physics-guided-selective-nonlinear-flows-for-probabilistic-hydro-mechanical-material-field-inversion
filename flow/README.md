@@ -1,10 +1,12 @@
-# C73 / C74 conditional flow
+# Conditional-flow implementations
 
-Expected contents (not yet in this repository):
+- `c73/` — dual-geometry information-routing flow, frozen 2,048-case
+  confirmation, report tables.
+- `c74_p4/` — physics-allocated spline models for Cohort A (Table 5).
+- `c74_p5/` — strong full-spline baselines and tuned wider splines for
+  Cohort B (Table 6), plus the exact-posterior pilot.
+- `c64_legacy/` — earlier C64 conditional-flow implementation retained for
+  provenance.
 
-- `model.py` — coupling layers (24 active spline + 232 affine coordinates)
-- `train.py`, `evaluate.py`
-- `configs/` — per-comparator YAML
-
-C73 is the main training/evaluation implementation; C74 is the variant used
-for the fairness audit.
+Scripts expect the original `/mnt/data/...` archive layout; adjust the data and
+checkpoint roots before running on a new machine.

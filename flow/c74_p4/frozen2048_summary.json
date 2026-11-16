@@ -1,0 +1,87 @@
+{
+  "n_fresh_original_biot_problems": 2048,
+  "test_seed": 742480,
+  "model_seeds": [
+    641133,
+    641134,
+    641135
+  ],
+  "means": {
+    "Gaussian": 255.7094268798828,
+    "C73_HMBlockSVDWhiten": 240.39859008789062,
+    "BalancedAffine": 240.08653259277344,
+    "FisherSpline": 237.81103515625,
+    "HMInfoSpline": 237.80233764648438,
+    "RandomSpline": 241.53475952148438
+  },
+  "contrasts": [
+    {
+      "candidate": "FisherSpline",
+      "reference": "C73_HMBlockSVDWhiten",
+      "n_independent_cases": 2048,
+      "mean_delta_nll": -2.5875634104013443,
+      "ci95_low": -2.8688056575134397,
+      "ci95_high": -2.3271754777058957,
+      "win_frequency": 0.689453125,
+      "signflip_p": 0.0001999600079984003,
+      "candidate_mean_nll": 237.81103515625,
+      "reference_mean_nll": 240.39859008789062,
+      "holm_p": 0.0009998000399920016
+    },
+    {
+      "candidate": "FisherSpline",
+      "reference": "RandomSpline",
+      "n_independent_cases": 2048,
+      "mean_delta_nll": -3.723712719976902,
+      "ci95_low": -4.020756048336625,
+      "ci95_high": -3.44262519069016,
+      "win_frequency": 0.8037109375,
+      "signflip_p": 0.0001999600079984003,
+      "candidate_mean_nll": 237.81103515625,
+      "reference_mean_nll": 241.53475952148438,
+      "holm_p": 0.0009998000399920016
+    },
+    {
+      "candidate": "FisherSpline",
+      "reference": "BalancedAffine",
+      "n_independent_cases": 2048,
+      "mean_delta_nll": -2.2755082845687866,
+      "ci95_low": -2.526224564015865,
+      "ci95_high": -2.0335555741563445,
+      "win_frequency": 0.68701171875,
+      "signflip_p": 0.0001999600079984003,
+      "candidate_mean_nll": 237.81103515625,
+      "reference_mean_nll": 240.08653259277344,
+      "holm_p": 0.0009998000399920016
+    },
+    {
+      "candidate": "HMInfoSpline",
+      "reference": "FisherSpline",
+      "n_independent_cases": 2048,
+      "mean_delta_nll": -0.008681043982505798,
+      "ci95_low": -0.020814825594425202,
+      "ci95_high": 0.0033788623288273805,
+      "win_frequency": 0.5078125,
+      "signflip_p": 0.15336932613477305,
+      "candidate_mean_nll": 237.80233764648438,
+      "reference_mean_nll": 237.81103515625,
+      "holm_p": 0.15336932613477305
+    },
+    {
+      "candidate": "HMInfoSpline",
+      "reference": "RandomSpline",
+      "n_independent_cases": 2048,
+      "mean_delta_nll": -3.732393763959408,
+      "ci95_low": -4.034374707564711,
+      "ci95_high": -3.449960621632636,
+      "win_frequency": 0.798828125,
+      "signflip_p": 0.0001999600079984003,
+      "candidate_mean_nll": 237.80233764648438,
+      "reference_mean_nll": 241.53475952148438,
+      "holm_p": 0.0009998000399920016
+    }
+  ],
+  "purpose": "Proper held-out conditional log density, not exact nonlinear posterior accuracy",
+  "original_C73_unchanged": true,
+  "model_selected_on_test": false
+}

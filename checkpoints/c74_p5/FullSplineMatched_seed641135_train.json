@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "mode": "FullSplineMatched",
+    "seed": 641135,
+    "parameters": 298736,
+    "best_epoch": 2,
+    "val_nll": 240.0465850830078,
+    "seconds": 13.504,
+    "inverse_error": 1.6689300537109375e-06,
+    "logdet_consistency_error": 6.67572021484375e-06,
+    "checkpoint": "/mnt/data/C74_P5_StrongBaselines_20261111/checkpoints/FullSplineMatched_seed641135.pt"
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "val_nll": 242.60635375976562
+    },
+    {
+      "epoch": 2,
+      "val_nll": 240.0465850830078
+    },
+    {
+      "epoch": 3,
+      "val_nll": 240.35328674316406
+    },
+    {
+      "epoch": 4,
+      "val_nll": 241.17076110839844
+    },
+    {
+      "epoch": 5,
+      "val_nll": 242.44972229003906
+    },
+    {
+      "epoch": 6,
+      "val_nll": 243.90530395507812
+    },
+    {
+      "epoch": 7,
+      "val_nll": 245.26393127441406
+    },
+    {
+      "epoch": 8,
+      "val_nll": 246.8329620361328
+    }
+  ]
+}

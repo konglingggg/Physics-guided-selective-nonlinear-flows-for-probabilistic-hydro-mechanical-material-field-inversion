@@ -1,50 +1,101 @@
 # Physics-guided selective nonlinear flows for probabilistic hydro-mechanical material-field inversion
 
-Code and data for the manuscript submitted to *Computational Geosciences*.
+Code, checkpoints and frozen result tables for the manuscript submitted to
+*Computational Geosciences* (Springer Nature).
 
-> **Status: scaffold, not yet a complete archive.**
-> The original C32 solver, C73/C74 flow implementation and frozen checkpoints are
-> **not present on this machine**. See `docs/MISSING_ASSETS.md` before making this
-> repository public or changing the paper's Code availability statement to a URL.
+This repository was assembled from the project's Stage-7 evidence archive
+(`AI4THMC_CG_Stage7_SpringerNature_FULL_Evidence_20261112.zip`, SHA-256
+`92d329c4f11148306163e28e8e8e8dc483b74132f6b1b2197663cf1d23ec4b3d`),
+which contains the earlier C73/C74 reproduction archive. See
+`docs/ARCHIVE_PROVENANCE.md` for the nested chain.
 
 ## Internal code names
 
 | Code | What it is |
 |------|-----------|
-| C32  | Reference Biot solver (coupled transient poroelasticity) |
-| C73  | Conditional-flow training/evaluation implementation (main) |
-| C74  | Conditional-flow implementation variant used for the fairness audit |
+| C32  | Biot solver / material-tangent implementation (coupled transient poroelasticity) |
+| C73  | Dual-geometry conditional-flow implementation (main C73 archive) |
+| C74  | Conditional-flow implementation used for the P4/P5 fairness and strong-baseline experiments |
 | M1   | Material configuration used by the C32 solver |
 
-## Layout
+## What is here
 
 ```
-solver/        C32 Biot solver + material tangent          (TO BE ADDED)
-flow/          C73/C74 conditional-flow code               (TO BE ADDED)
-checkpoints/   frozen neural-network weights               (TO BE ADDED)
-data/          dev/validation/confirmation splits + cohorts (TO BE ADDED)
-results/       tables 5,6,8,10 (7,9 pending)
-figures/       scripts used to draw Fig. 1–10
+solver/                    C32 mechanism audit + linked-storage audit (NumPy/SciPy)
+flow/c73/                  C73 dual-geometry flow, frozen confirmation, analysis
+flow/c74_p4/               C74-P4 physics-allocated spline models (Cohort A)
+flow/c74_p5/               C74-P5 strong full-spline baselines (Cohort B)
+flow/c64_legacy/           earlier C64 conditional-flow implementation
+checkpoints/c74_p4/        P4 model weights (3 seeds per model)
+checkpoints/c74_p5/        P5 model weights (3 seeds per model)
+checkpoints/fairness/      learning-rate-audit weights
+checkpoints/cohortD/       random-mask weights (5 masks × 3 seeds)
+data/cohorts/              Cohort A (2,048), B (1,024), C (1,024), D (1,024)
+results/table5..table10    frozen result tables
+results/fairness/          learning-rate grid and Cohort C contrasts
+results/cohortD/           Cohort D per-case and paired statistics
+results/frozen/            frozen score snapshots
+figures/                   journal figure scripts (Fig. 1–10)
 ```
 
-## Reproduce (once the missing assets are added)
+## Result tables
+
+| File | Paper table | Source |
+|---|---|---|
+| `results/table5_cohortA.csv` | Table 5 | `flow/c74_p4/frozen2048_mean_seeds.csv` |
+| `results/table6_cohortB.csv` | Table 6 | `flow/c74_p5/P5_summary.json` |
+| `results/table7_fairness.csv` | Table 7 (reconstructed) | `results/fairness/development_lr_selection.csv` + `cohortC_paired_statistics.csv` |
+| `results/table8_cohortD.csv` | Table 8 | `results/cohortD/cohortD_paired_statistics.csv` |
+| `results/table9_paired.csv` | Table 9 | `flow/c74_p5/primary_confirmation_full_statistics.csv` |
+| `results/table10_frequency.csv` | Table 10 | P4/P5 paired win frequencies |
+
+The six CSVs are generated from the archived per-case scores, not typed from
+the PDF. Table 7 is a tidy reconstruction: the paper's Table 7 combines the
+learning-rate audit and the Cohort C contrasts, which are kept in separate
+sections of the CSV.
+
+## Reproduce
 
 ```bash
 pip install -r requirements.txt
-python solver/verify_tangent.py --h 1e-4
-python flow/train.py --config configs/fisher_spline.yaml
-python flow/evaluate.py --all-cohorts
 ```
+
+1. Biot mechanism audit (Table 3 diagnostics):
+
+```bash
+python solver/biot_mechanism_audit.py
+python solver/c32_linked_storage_audit.py
+```
+
+2. Cohort A (P4, Table 5):
+
+```bash
+cd flow/c74_p4
+python c74_p4_spline_flow.py
+python c74_p4_frozen_biot_test.py
+```
+
+3. Cohort B (P5, Table 6):
+
+```bash
+cd flow/c74_p5
+python c74_p5_strong_baselines.py
+python c74_p5_tuned_full_spline.py
+python c74_p5_analysis.py
+```
+
+The archived scripts contain absolute paths from the original machine
+(`/mnt/data/...`). Edit the data/checkpoint roots before running.
 
 ## Environment
 
 - Python 3.10
-- PyTorch (CUDA build), NumPy, SciPy, Matplotlib
-- Single NVIDIA GPU used for training
+- NumPy, SciPy, Matplotlib, PyTorch (CUDA build)
+- Training used a single NVIDIA GPU
 
 ## Data
 
-All data are synthetic, generated by the C32 Biot solver. No field data or
+All data are synthetic, generated by the Biot solver. No field data or
 third-party datasets were used.
 
 ## Licence

@@ -1,0 +1,67 @@
+{
+  "new_seed": 731960,
+  "fresh_original_biot_forward_cases": 2048,
+  "model_train_true_pairs": 1600,
+  "model_validation_true_pairs": 240,
+  "three_seed_training_repeats": 3,
+  "trainable_parameters_each_model": 302848,
+  "means": {
+    "Gaussian": 254.87249755859375,
+    "Fisher": 242.200439453125,
+    "HMBlockSVDWhiten": 239.57740783691406,
+    "JointSVDWhiten": 242.09954833984375,
+    "RandomBlockWhiten": 239.95835876464844,
+    "SensorDiagNorm": 241.80142211914062
+  },
+  "paired_comparisons": [
+    {
+      "contrast": "HMBlockSVDWhiten - Fisher",
+      "mean_delta_nll": -2.62300755828619,
+      "ci95_low": -2.932068544998765,
+      "ci95_high": -2.3167287001386287,
+      "improved_truths": 1383,
+      "n_truths": 2048,
+      "signflip_p": 0.00016663889351774705,
+      "control_nll": 242.200439453125,
+      "candidate_nll": 239.57740783691406,
+      "holm_p": 0.0006665555740709882
+    },
+    {
+      "contrast": "HMBlockSVDWhiten - JointSVDWhiten",
+      "mean_delta_nll": -2.522119902074337,
+      "ci95_low": -2.836232472024858,
+      "ci95_high": -2.220886785164476,
+      "improved_truths": 1320,
+      "n_truths": 2048,
+      "signflip_p": 0.00016663889351774705,
+      "control_nll": 242.09954833984375,
+      "candidate_nll": 239.57740783691406,
+      "holm_p": 0.0006665555740709882
+    },
+    {
+      "contrast": "HMBlockSVDWhiten - RandomBlockWhiten",
+      "mean_delta_nll": -0.38094034790992737,
+      "ci95_low": -0.45088889095932244,
+      "ci95_high": -0.3101537611335516,
+      "improved_truths": 1230,
+      "n_truths": 2048,
+      "signflip_p": 0.00016663889351774705,
+      "control_nll": 239.95835876464844,
+      "candidate_nll": 239.57740783691406,
+      "holm_p": 0.0006665555740709882
+    },
+    {
+      "contrast": "HMBlockSVDWhiten - SensorDiagNorm",
+      "mean_delta_nll": -2.22401125729084,
+      "ci95_low": -2.5100462233647702,
+      "ci95_high": -1.9541962798684835,
+      "improved_truths": 1356,
+      "n_truths": 2048,
+      "signflip_p": 0.00016663889351774705,
+      "control_nll": 241.80142211914062,
+      "candidate_nll": 239.57740783691406,
+      "holm_p": 0.0006665555740709882
+    }
+  ],
+  "scope": "Conditioned predictive heldout material log density within fixed original C32 alpha0.7 pulse regime. Not exact nonlinear posterior accuracy or method novelty."
+}

@@ -1,0 +1,28 @@
+seed,model,val_nll,best_epoch,params,family
+641133,Fisher,242.45933532714844,4,302848,A:mask-gating
+641133,HMComplementary,241.97434997558594,4,302848,A:mask-gating
+641133,HM_Route,241.83493041992188,4,302848,A:mask-gating
+641133,HM_ShuffledRoute,241.97604370117188,4,302848,A:mask-gating
+641133,JointSVD,242.43685913085938,4,302848,B:dual information geometry
+641133,HMBlockSVD,242.14492797851562,4,302848,B:dual information geometry
+641133,RandomCtx,242.03372192382812,4,302848,B:dual information geometry
+641133,JointSVDWhiten,242.03048706054688,3,302848,B:dual information geometry
+641133,HMBlockSVDWhiten,240.68003845214844,3,302848,B:dual information geometry
+641133,SensorDiagNorm,242.0669403076172,3,302848,B:dual information geometry
+641133,RandomBlockWhiten,241.00721740722656,4,302848,B:dual information geometry
+641134,Fisher,242.25160217285156,4,302848,A:mask-gating
+641134,HMComplementary,241.86932373046875,4,302848,A:mask-gating
+641134,HM_Route,241.68603515625,4,302848,A:mask-gating
+641134,HM_ShuffledRoute,241.87106323242188,4,302848,A:mask-gating
+641134,JointSVDWhiten,241.978759765625,3,302848,B:dual information geometry
+641134,HMBlockSVDWhiten,240.42620849609375,3,302848,B:dual information geometry
+641134,SensorDiagNorm,241.9743194580078,3,302848,B:dual information geometry
+641134,RandomBlockWhiten,240.95558166503906,3,302848,B:dual information geometry
+641135,Fisher,242.1964569091797,4,302848,A:mask-gating
+641135,HMComplementary,241.91757202148438,4,302848,A:mask-gating
+641135,HM_Route,241.6604461669922,4,302848,A:mask-gating
+641135,HM_ShuffledRoute,241.9196014404297,4,302848,A:mask-gating
+641135,JointSVDWhiten,242.0489959716797,3,302848,B:dual information geometry
+641135,HMBlockSVDWhiten,240.49380493164062,3,302848,B:dual information geometry
+641135,SensorDiagNorm,241.8562469482422,4,302848,B:dual information geometry
+641135,RandomBlockWhiten,240.78643798828125,4,302848,B:dual information geometry

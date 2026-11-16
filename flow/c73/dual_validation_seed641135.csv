@@ -1,0 +1,5 @@
+mode,seed,n_parameters,best_epoch,val_nll,old_C64_pilot_nll,seconds,checkpoint
+HMBlockSVDWhiten,641135,302848,3,240.49380493164062,236.8770294189453,6.544193267822266,/mnt/data/C73_HM_Information_Routing_20261111/dual_checkpoints/HMBlockSVDWhiten_seed641135.pt
+JointSVDWhiten,641135,302848,3,242.0489959716797,239.57571411132812,5.729585647583008,/mnt/data/C73_HM_Information_Routing_20261111/dual_checkpoints/JointSVDWhiten_seed641135.pt
+RandomBlockWhiten,641135,302848,4,240.78643798828125,237.0125274658203,5.579663038253784,/mnt/data/C73_HM_Information_Routing_20261111/dual_checkpoints/RandomBlockWhiten_seed641135.pt
+SensorDiagNorm,641135,302848,4,241.8562469482422,239.12319946289062,5.812878847122192,/mnt/data/C73_HM_Information_Routing_20261111/dual_checkpoints/SensorDiagNorm_seed641135.pt

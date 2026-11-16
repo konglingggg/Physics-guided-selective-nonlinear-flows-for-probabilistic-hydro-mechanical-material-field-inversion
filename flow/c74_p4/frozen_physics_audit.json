@@ -1,0 +1,8 @@
+{
+  "seed": 742480,
+  "new_independent_truths": 2048,
+  "original_biot_forward_calls": 2048,
+  "elapsed_sec": 14.606849908828735,
+  "physics": "Original C32 M1-linked, alpha=.7, pulse",
+  "network_selection_on_this_test": false
+}

@@ -1,0 +1,99 @@
+{
+  "fresh_confirm_1024": {
+    "n_cases": 1024,
+    "mean_nll": {
+      "HMInfoSpline": 238.14862331054687,
+      "FisherSpline": 238.1619143359375,
+      "FullSplineWideLR2e4": 239.99702432617187,
+      "FullSplineMatched": 240.03986925781248,
+      "C73": 240.5595293847656,
+      "WeakSpline": 241.60745581054687,
+      "RandomSpline": 241.758281875
+    },
+    "primary_contrasts": [
+      {
+        "method": "FisherSpline",
+        "reference": "C73",
+        "n_cases": 1024,
+        "mean_delta_NLL": -2.3976150488281247,
+        "bootstrap95_low": -2.7032275700683592,
+        "bootstrap95_high": -2.086386655029296,
+        "signflip_two_sided_p": 0.0001999600079984003,
+        "win_fraction": 0.6884765625,
+        "Holm_adjusted_p": 0.0011997600479904018
+      },
+      {
+        "method": "FisherSpline",
+        "reference": "FullSplineMatched",
+        "n_cases": 1024,
+        "mean_delta_NLL": -1.8779549218750002,
+        "bootstrap95_low": -2.035781643066407,
+        "bootstrap95_high": -1.7256372895507817,
+        "signflip_two_sided_p": 0.0001999600079984003,
+        "win_fraction": 0.787109375,
+        "Holm_adjusted_p": 0.0011997600479904018
+      },
+      {
+        "method": "FisherSpline",
+        "reference": "FullSplineWideLR2e4",
+        "n_cases": 1024,
+        "mean_delta_NLL": -1.8351099902343746,
+        "bootstrap95_low": -2.003036810058594,
+        "bootstrap95_high": -1.670223330078125,
+        "signflip_two_sided_p": 0.0001999600079984003,
+        "win_fraction": 0.759765625,
+        "Holm_adjusted_p": 0.0011997600479904018
+      },
+      {
+        "method": "FisherSpline",
+        "reference": "WeakSpline",
+        "n_cases": 1024,
+        "mean_delta_NLL": -3.4455414746093744,
+        "bootstrap95_low": -3.7829128330078112,
+        "bootstrap95_high": -3.114491693847656,
+        "signflip_two_sided_p": 0.0001999600079984003,
+        "win_fraction": 0.7744140625,
+        "Holm_adjusted_p": 0.0011997600479904018
+      },
+      {
+        "method": "FisherSpline",
+        "reference": "RandomSpline",
+        "n_cases": 1024,
+        "mean_delta_NLL": -3.5963675390625003,
+        "bootstrap95_low": -3.946836993164063,
+        "bootstrap95_high": -3.2508207480468747,
+        "signflip_two_sided_p": 0.0001999600079984003,
+        "win_fraction": 0.7958984375,
+        "Holm_adjusted_p": 0.0011997600479904018
+      },
+      {
+        "method": "HMInfoSpline",
+        "reference": "FisherSpline",
+        "n_cases": 1024,
+        "mean_delta_NLL": -0.013291025390625016,
+        "bootstrap95_low": -0.031687657714844206,
+        "bootstrap95_high": 0.004397625244140872,
+        "signflip_two_sided_p": 0.13977204559088183,
+        "win_fraction": 0.5087890625,
+        "Holm_adjusted_p": 0.13977204559088183
+      }
+    ]
+  },
+  "exact_nonlinear_pilot": {
+    "n_observations": 4,
+    "n_samples_per_method_per_observation": 96,
+    "mean_ess": {
+      "C73": 4.74068715857036,
+      "FisherSpline": 2.533844019121444,
+      "FullSplineMatched": 1.854128596683517,
+      "MAPGaussian": 12.738291291485181
+    },
+    "mean_weighted_logE_RMSE": {
+      "C73": 0.38801955029186064,
+      "FisherSpline": 0.41464905220344817,
+      "FullSplineMatched": 0.4378617931693184,
+      "MAPGaussian": 0.363052370368911
+    }
+  },
+  "ood_status": "alpha=0.4 and 1.0 use frozen nominal alpha=0.7 physics tangent, so absolute NLL is not calibrated. Interpret only exploratory sensitivity."
+}

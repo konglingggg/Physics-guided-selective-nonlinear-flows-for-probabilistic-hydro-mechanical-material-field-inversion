@@ -1,0 +1,1612 @@
+[
+  {
+    "path": "C73_dual_geometry_comparison.png",
+    "size": 72746,
+    "sha256": "7d114f6b39576eee9a7d045e78d98fcfe4f9d04a6aea453a504c6e81a78caf49"
+  },
+  {
+    "path": "C73_dual_geometry_paired_CI.png",
+    "size": 63457,
+    "sha256": "f076ed509d785b774559a8d1820dbce7d726def6e4c6fae976118ae239ca216c"
+  },
+  {
+    "path": "C73_final_numerical_audit.json",
+    "size": 366,
+    "sha256": "e4c47f559e7492509c6fb1c8cb105213411856776308d55611536e0a1f1b9793"
+  },
+  {
+    "path": "README_CN.md",
+    "size": 8520,
+    "sha256": "037a43477b7bd95b49bf0dc3c78021eac1ec64ec2f6a9ddcdd8ad6ba8ee41ee8"
+  },
+  {
+    "path": "all_validation_audit.csv",
+    "size": 1937,
+    "sha256": "c21be743ad3d6edddf55abb78b2c2a2f7a0b31bbeaf699872adf909558300e5a"
+  },
+  {
+    "path": "build_release.py",
+    "size": 1146,
+    "sha256": "2cd2fa6648608d4a94b04e8de06c4628fe6e828c31c729983b4070cb6d2562d0"
+  },
+  {
+    "path": "c73_analysis_package.py",
+    "size": 5139,
+    "sha256": "295399e81edd4560a1be4cfe0584aa2286f5b1fe8264d50d2d5c3634539a5a61"
+  },
+  {
+    "path": "c73_dual_frozen_confirm.py",
+    "size": 5866,
+    "sha256": "daee52522baafc801badd7a9ee5903213e057972af3dab1aed3afaf9e72cb06b"
+  },
+  {
+    "path": "c73_dual_geometry_flow.py",
+    "size": 4396,
+    "sha256": "2b663e53be8ac6c2078da2231366e45cd44a8efbe460496bd9183bb6f75a32fb"
+  },
+  {
+    "path": "c73_frozen_confirm2048.py",
+    "size": 6639,
+    "sha256": "a77b42876b37042b74ca7967d441a95f01ee7d4f56c3f5bb285c85baf6e5e657"
+  },
+  {
+    "path": "c73_frozen_test.py",
+    "size": 6626,
+    "sha256": "58b0e1652ad00213af10ef477543220ae13ec673af7ce1f6992a70d08d310cea"
+  },
+  {
+    "path": "c73_route_flow.py",
+    "size": 7784,
+    "sha256": "9d762eb96015cd137dee9d72d1eb1bec72413a7ebca8a25e5d84c6e6ef9bb7a8"
+  },
+  {
+    "path": "checkpoints/Fisher_Route_seed641133.pt",
+    "size": 1407842,
+    "sha256": "d4e539c51f65c3270f6af5cba7767f47310acdf0d2e023b359a5ddccfcad914e"
+  },
+  {
+    "path": "checkpoints/Fisher_Route_seed641133_log.json",
+    "size": 2517,
+    "sha256": "e500ce099fa75dcbfa000a829d8664189928f143f2f68da74d05d50642d4a479"
+  },
+  {
+    "path": "checkpoints/Fisher_seed641133.pt",
+    "size": 1220359,
+    "sha256": "0e1853d31640266a3eb9ec1afba38903db61d22e0b68aef274dfe317598e2a40"
+  },
+  {
+    "path": "checkpoints/Fisher_seed641133_log.json",
+    "size": 2505,
+    "sha256": "8b59c9341d0812ab074f8ffba73aaa9f07f63c4af38e52a6b2540d3559dc5527"
+  },
+  {
+    "path": "checkpoints/Fisher_seed641134.pt",
+    "size": 1220359,
+    "sha256": "42d3350b6fddec7f471fbeb0f29578294605a6eda5fa6f4f7f32856afd8250f0"
+  },
+  {
+    "path": "checkpoints/Fisher_seed641134_log.json",
+    "size": 2516,
+    "sha256": "ce3c3660e9f4ac18bbe42ce3dc6c1a4602a2528f1a06b5715ed27eca200ed213"
+  },
+  {
+    "path": "checkpoints/Fisher_seed641135.pt",
+    "size": 1220359,
+    "sha256": "2cb31252998440b875704df34f054cd9d8f1b1822decad27b74966e8c2b77b90"
+  },
+  {
+    "path": "checkpoints/Fisher_seed641135_log.json",
+    "size": 2508,
+    "sha256": "bdac68435dd814ac9acf441f3e35db528d3b5f5f5cdfbb4763a8aa2114a4b621"
+  },
+  {
+    "path": "checkpoints/HMComplementary_seed641133.pt",
+    "size": 1220693,
+    "sha256": "a22162d092350e9cd4fac0a3daf18ea3b238d687b9b7e18069f6e248ebbd222e"
+  },
+  {
+    "path": "checkpoints/HMComplementary_seed641133_log.json",
+    "size": 2525,
+    "sha256": "c0c687498c882b6125ef0f158f57039b5d20bad1db44e809b2bd171cf731d8b3"
+  },
+  {
+    "path": "checkpoints/HMComplementary_seed641134.pt",
+    "size": 1220693,
+    "sha256": "f6d53a9bd9e23c67b2a58ba88bc42c076ba778906ea92336e7a1ca3935c55937"
+  },
+  {
+    "path": "checkpoints/HMComplementary_seed641134_log.json",
+    "size": 2523,
+    "sha256": "54a99b32eef604534ef62c79f7f7b2bf6aed3d43323c7194b3fd417e1c3db016"
+  },
+  {
+    "path": "checkpoints/HMComplementary_seed641135.pt",
+    "size": 1220693,
+    "sha256": "406a40be6836355edbdbda112aa13299a79c97c3179f673280a1dba6f7db43c6"
+  },
+  {
+    "path": "checkpoints/HMComplementary_seed641135_log.json",
+    "size": 2524,
+    "sha256": "793ad458a9bc86311e5562c53dd708bdfe692f9f608d2a5b0b584e966b14b444"
+  },
+  {
+    "path": "checkpoints/HM_Route_seed641133.pt",
+    "size": 1407646,
+    "sha256": "708e7671b3a4947dede4911678efa1489d35ba745027f3777a67b07f4f8dff7a"
+  },
+  {
+    "path": "checkpoints/HM_Route_seed641133_log.json",
+    "size": 2512,
+    "sha256": "83281746f6af9f15800e3f939e0a924627b35faf75eae7a00992524910cc7cce"
+  },
+  {
+    "path": "checkpoints/HM_Route_seed641134.pt",
+    "size": 1407646,
+    "sha256": "6b99f4a0ef32c12d3dee0ff2465178c073413387540992ad552fb92d71095167"
+  },
+  {
+    "path": "checkpoints/HM_Route_seed641134_log.json",
+    "size": 2499,
+    "sha256": "a2f1b9185f4f27b121d625ddd95880556ebdca44e17819dfff850c83103b86d9"
+  },
+  {
+    "path": "checkpoints/HM_Route_seed641135.pt",
+    "size": 1407646,
+    "sha256": "c42882e87a9a315719bc14686d96bd21f0027ce90dca0f2c7394e7e6eacd1059"
+  },
+  {
+    "path": "checkpoints/HM_Route_seed641135_log.json",
+    "size": 2501,
+    "sha256": "4158a2752a1df2ae4264030b562808d75308d1e1e2407abf46db4a5fead08894"
+  },
+  {
+    "path": "checkpoints/HM_ShuffledRoute_seed641133.pt",
+    "size": 1407974,
+    "sha256": "b7c49f8d0286d64bdc7b1623551990c668b336b569cfe6af08e473946cb9ad61"
+  },
+  {
+    "path": "checkpoints/HM_ShuffledRoute_seed641133_log.json",
+    "size": 2526,
+    "sha256": "4b3b58fb90ebb1d3eca2a8e3c89c2732fad3cf2fed8b12d413788ba0bfe6f6f0"
+  },
+  {
+    "path": "checkpoints/HM_ShuffledRoute_seed641134.pt",
+    "size": 1407974,
+    "sha256": "8429298cf543baa249d532d8935486be8fa33129ce5ed1faaf0c99871f760b07"
+  },
+  {
+    "path": "checkpoints/HM_ShuffledRoute_seed641134_log.json",
+    "size": 2526,
+    "sha256": "1c6959ce1018feee5542714067acdac23bf3aaf54a398a6b12401c8c8c9dd663"
+  },
+  {
+    "path": "checkpoints/HM_ShuffledRoute_seed641135.pt",
+    "size": 1407974,
+    "sha256": "14026ef4686c349bc91a7eed485040cb3a4203b8ecde1c9a905eb7622cbb4054"
+  },
+  {
+    "path": "checkpoints/HM_ShuffledRoute_seed641135_log.json",
+    "size": 2522,
+    "sha256": "6835aaa324197e32ec863cc485cd4057a6ee5201b88103ec34c6bccb83edc03e"
+  },
+  {
+    "path": "checkpoints/RankBalanced_seed641133.pt",
+    "size": 1220603,
+    "sha256": "2f4dbde3a31e3ac551f86e648fd04b7298c2630323c34628ad794732b8de74a8"
+  },
+  {
+    "path": "checkpoints/RankBalanced_seed641133_log.json",
+    "size": 2520,
+    "sha256": "7154eb07357a5606a281c60262b8cf73ba37f4cae285ef408713d9c1ebd13f6b"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/fisher_basis.npz",
+    "size": 1330768,
+    "sha256": "7e5ead683954f71561067527540146c68c0826ffc57548138381c35c08f01faf"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/C69_M_flow_amortized.pt",
+    "size": 21489,
+    "sha256": "b817e888fc3d23eb96026b92d46d337bce03213e78775d6343283a33faaf24b5"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/C69_architecture.png",
+    "size": 131968,
+    "sha256": "c9c2787e7ad768aee108a62bb2e0d9c20834bc5ebd1a4205d33e4a9a57c8c807"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/C69_compute_cost.csv",
+    "size": 891,
+    "sha256": "f53b095bed2125f028fa17d821f10d2f3cb16de8ce011f740879f5469c571d9e"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/C69_frozen_per_observation.csv",
+    "size": 16785,
+    "sha256": "1a7059a65f47deb482a154504e8d81e7f32f9369fe72f4140d7a1cc17fdd86fb"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/C69_gaussian_amortized.pt",
+    "size": 21577,
+    "sha256": "53b9bdaabc76775bbf9542c1535f8964f15cbd5bd5f46a827ce34aba55041928"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/C69_joint_exact_ESS.png",
+    "size": 185854,
+    "sha256": "9ce4f239f9b7498450a670cb16598e16b1ae54b475bdba5e00bac0e9700c515b"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/C69_joint_exact_compute_cost.csv",
+    "size": 877,
+    "sha256": "0684dcd6fc4338f061356eb0da3ea348075dfbb51828cc1a870b9a37c7bbd0d4"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/C69_joint_exact_means.csv",
+    "size": 198,
+    "sha256": "b90cce82b86fdb677e9a7c10efdff2949e038fc1c4ab7c887c8b83de9ef7179c"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/C69_joint_exact_paired.csv",
+    "size": 370,
+    "sha256": "bba79d9012c68ab88bb120e8f1ed8cbb2dba221a349d992a385de3b15b987d6d"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/C69_joint_exact_per_obs.csv",
+    "size": 4168,
+    "sha256": "d921c263bec0b4759763e0acc096f78b3a8063300003054453ba4588dccb7e2f"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/C69_joint_logscore_CI.png",
+    "size": 56317,
+    "sha256": "eaad5366f8a8939a06be565ccba94217914d1d530f1745306b80fc5dbe1005d1"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/C69_main_comparison.png",
+    "size": 57747,
+    "sha256": "91c249ad9b9b5284d54f03a4fab693576c03d514449399b335ec945ccc1287ff"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/C69_method_summary.csv",
+    "size": 992,
+    "sha256": "9e76bb635de138b32b316cc1e5a7a48bcb4b1aa909862d83f3907f2ea90c5c9e"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/C69_paired_statistics.csv",
+    "size": 915,
+    "sha256": "90308e463d6caa0cd56612d6f639cacafac0f2b72b48700bf1b187d9181ae953"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/C69_predictive_R2.png",
+    "size": 137528,
+    "sha256": "35c37441d119b3bf830028a1cd41f49af3957afc9c99e9c2227ef57153680513"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/C69_ratio_predictive_score.csv",
+    "size": 226,
+    "sha256": "0f36bf6fa493548220742cfc92e2d8be8751c9313f0307a2534b783567187979"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/README_CN.md",
+    "size": 8332,
+    "sha256": "1ac1b76b69e2649aef03947e92d037db236f088f9bb88484d4c20ea723fd2998"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/RUN_COMMANDS.md",
+    "size": 1958,
+    "sha256": "24b3267338598f5d53a73d60e74a087ff2fa6065d9614663eb881573c58be66d"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/SHA256SUMS.txt",
+    "size": 23023,
+    "sha256": "72b71eaf0b40152f0c53ad9c3f096d907c19150a9b2548fcb594695c6d8d9aa1"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/c69_amortized_ratio.py",
+    "size": 13595,
+    "sha256": "e8444e55bd35d6ccca7e7d66774a3ec2b31a93db4edbf7847961bd6063bcdd39"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/c69_joint_exact_posterior.py",
+    "size": 3558,
+    "sha256": "40c272b205c8a97b3a891565294fbd1dc251069a2299e8dfb85dc8de77e99719"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/c69_joint_flow.py",
+    "size": 4045,
+    "sha256": "58b5e1901dbf58a7ed549a2c5de31b448fc8b211884e6550908d6fa6d384e393"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/c69_joint_summarize.py",
+    "size": 2616,
+    "sha256": "9db6b2de9a46369f9fb2dc52ddd0bdc2dc14b918c6ef5e43d745d5cafcf480d5"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/c69_make_figures.py",
+    "size": 2587,
+    "sha256": "6d9dccec742d9b76fb156262a43884e839825660ea13fd424b9277ae1d6adf1a"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/c69_summarize.py",
+    "size": 4673,
+    "sha256": "b569e050b9742482a6bc2f195c43d894fb468016494f343440fe907cc155e978"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/cache.log",
+    "size": 1077,
+    "sha256": "6b0b504f583d07fa60489befe886bba15005f9522bad52fd1d8570534b3a348b"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/eval.log",
+    "size": 1639,
+    "sha256": "65fa9afaaf7034f534a8fff0dc23e168db772342e1353357eb4b49b2ffadfc90"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_016.npz",
+    "size": 18361,
+    "sha256": "7ebb35cc607308a7eb7e2b72d5ed5c2059991848a3fe3eb8c6c578b789d454f5"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_032.npz",
+    "size": 18339,
+    "sha256": "d07926cc3297bde9d3dbe29f2cde64290f8b307a0a12c848e2084a85520bd7a8"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_036.npz",
+    "size": 18357,
+    "sha256": "0ccc35be043452e039728c548a4766c28b9ddc6a70b30949b74d1d740bfde9a1"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_044.npz",
+    "size": 18344,
+    "sha256": "4ebef0ec8db4a7a9ba62925c33350dfffff80bf9b39acaca38aa3abaeb6f5d44"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_049.npz",
+    "size": 18372,
+    "sha256": "d73e91703650fb1004f50e0f9cb11080ff0b034dd82dc1d9d5c5ae2415d5191a"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_050.npz",
+    "size": 18359,
+    "sha256": "61083f593fdbae54ea1fdd60b1a35051e9cdcef97056ae7892cfe34213616b84"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_063.npz",
+    "size": 18347,
+    "sha256": "9b54557e2aeb39032ba5cb6a9e35831c34bdfcb0d80c227e410885cfacfd5871"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_065.npz",
+    "size": 18342,
+    "sha256": "5fddde8d9d3ca2d2862213db7939e64d43ed2f36514e0134f2cf559ff1026893"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_072.npz",
+    "size": 18349,
+    "sha256": "4af909b711ef379f8f90cf287fab5c2e318e0849c1cc3ab3ca1d221b56c3f330"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_083.npz",
+    "size": 18359,
+    "sha256": "57bfe2c70ce535ad62144c50586cb9f59ddc160c2c0a9f7224233282141c246b"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_088.npz",
+    "size": 18332,
+    "sha256": "12144c42d1d7c0ddbdc76fd759356da5625433052c545dde8fb7be48b01bcf86"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_100.npz",
+    "size": 18347,
+    "sha256": "4acc565b7c1caafebafaa9ef9dce6db99ac72282d87a68dc634022cb34a5e292"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_106.npz",
+    "size": 18340,
+    "sha256": "d7204213e4b02b208211e419f9f7031b0607e6dc59f4a8160a863ba52ff6bdd5"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_111.npz",
+    "size": 18341,
+    "sha256": "2ac8376f83c799e2dbae527a99b05d3692146099e4547939b4b76a6316676208"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_114.npz",
+    "size": 18352,
+    "sha256": "72d0c0b1a627bc1a33ce9aed4ac0bbcc2fa503a4fa6ad0f5ed34f9217d3d60ee"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_117.npz",
+    "size": 18347,
+    "sha256": "44f2abbcf51f955e5cc2fbb878cd10be83b9dcd6f4431950d99b9e491420d684"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_121.npz",
+    "size": 18378,
+    "sha256": "100101b27a2e28a7488b682bd39918672cfd3f68acc4bc80b43b1b4d35c9cd39"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_126.npz",
+    "size": 18362,
+    "sha256": "da761361e3c66b4c44439f695f77b3e4f8628111d5d78ed420805b6a18c199dc"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_128.npz",
+    "size": 18351,
+    "sha256": "23d7ef0854f602bc9f1fd658bfa75c9097cef22360707ea3d18f9ed25659a03f"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_133.npz",
+    "size": 18356,
+    "sha256": "87fa8b4cfae406d24360324b490e4e3ac3c80c3a7e47161085935b7a976e73b5"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_135.npz",
+    "size": 18325,
+    "sha256": "1892b2df5db9fac20cfd1b01beb4e12b8583d9c5dba71443c0890fbd9f660664"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_141.npz",
+    "size": 18354,
+    "sha256": "b9f2d7e44e2b425dc48a9ffea71109e70c724ab01abf2aa6e4cbbdc14ff45969"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_157.npz",
+    "size": 18354,
+    "sha256": "1a308884d6858ae3b22b9c8a778af6fd351dc05213a7ddbfa8f95306f20a304d"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_170.npz",
+    "size": 18371,
+    "sha256": "c60c2a38986bc31c6bbf9a78b578ac5293508419a0e778e03c142132588665c5"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_172.npz",
+    "size": 18325,
+    "sha256": "3078fa8040dc57da694af82270a21fd987d07b9220a92bea2a0b84f9da8bbdf0"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_183.npz",
+    "size": 18357,
+    "sha256": "6dc7ce55d7cbda3653d4039e898e6c22aef1ce2d5fb87e0162ca64302c7e14e6"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_199.npz",
+    "size": 18348,
+    "sha256": "86d7b4c1278448702b50796517f329fd84511ae954b5e04ad3c45445928b142e"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_203.npz",
+    "size": 18352,
+    "sha256": "458a6b4571f62823a223a05a59fd548dcf9fee85dd95f497838f2365c01e91b9"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_208.npz",
+    "size": 18368,
+    "sha256": "8dbdca5feb76c4196b7a9f27d184e9b9bc70ef6fa503937cc70b521cf8d15655"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_209.npz",
+    "size": 18343,
+    "sha256": "3ceed389315a8bd071dce50e18daf0c9d6ed79e11662d85ca9ebda539ed2ed7f"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_220.npz",
+    "size": 18345,
+    "sha256": "aa35e84b05675a8dbc9819952ee024929ff9f3ab9a7c0702850ab155a1f73c87"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/features/obs_223.npz",
+    "size": 18341,
+    "sha256": "4cc1e382c605ce335bba58469bf07beecbe063a9d397bd10e3c96d950c5b7ab0"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_013/cost.json",
+    "size": 124,
+    "sha256": "1d4c079e9b7b6228a186e8b10a10e7c10df2daf1b85179012211e6a2f252e36c"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_013/logweights.npz",
+    "size": 2901,
+    "sha256": "ec9afb445fcdd93c97cf5ee7885885f83913343696739ef373d19493913c6922"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_013/metrics.csv",
+    "size": 321,
+    "sha256": "124a8b0205be917809c113d1bc786b40bec303a51d37ffad2ac096be41eef812"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_015/cost.json",
+    "size": 125,
+    "sha256": "a24204c1480284106d284f509b33b5062dcd4432e3de46ac0dc4209d8e21c34d"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_015/logweights.npz",
+    "size": 2885,
+    "sha256": "61489fd83009ef0855e4ba52684a46af9a00d4ed5e65e26cc9a3b4a6bd7f3a82"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_015/metrics.csv",
+    "size": 317,
+    "sha256": "57aa7eecf12041f71034202317c0b6ba37764c006456bdf4da178eed0b550243"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_042/cost.json",
+    "size": 125,
+    "sha256": "754a94d207e15c650c2c670de64d8088b9a25046ca06e44bc8d2bccd55417082"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_042/logweights.npz",
+    "size": 2895,
+    "sha256": "8edccae1ca140ea7e087784cd5c5dc43afb59fc38f14fa43ba401c477bca118d"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_042/metrics.csv",
+    "size": 321,
+    "sha256": "f939081fd41ad7b348eb5642b04ac12d90e0c0397003c289cabcf7674c339bfc"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_059/cost.json",
+    "size": 126,
+    "sha256": "29ee05590baa5c002287ea88d2eaec4c2187b47d7775755edf74c5b73d1122c9"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_059/logweights.npz",
+    "size": 2891,
+    "sha256": "8059c6c0a93558125fc536b1e1aed2d1bb9ad8064a6c2b42125e0ccb33c0b4eb"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_059/metrics.csv",
+    "size": 323,
+    "sha256": "61e87fc48d550dc669a282e5730bf237240f75fcf445246fe64afd1fed55a023"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_067/cost.json",
+    "size": 124,
+    "sha256": "e931ac6dcb40a77ab64437ccba29228bc63bd40252ff818efc9e99041d37deaa"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_067/logweights.npz",
+    "size": 2885,
+    "sha256": "4c0adc1ad0d8aa926472c295531aeba4c7c77a8fb9eb9642e041464e3d24ea7c"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_067/metrics.csv",
+    "size": 319,
+    "sha256": "bf07707f87c2528729a42a1b678f4d5c10edd2bc5cbb8a6c0e446d9d7815ba03"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_093/cost.json",
+    "size": 126,
+    "sha256": "7e0118458b1986cc7fb02132f9814026b518b23ded761764ba364a3560166192"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_093/logweights.npz",
+    "size": 2899,
+    "sha256": "1447df30fbbb57c0c442a7e884c68d2380d89ba3c84a76e97fbdd7410d92843e"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_093/metrics.csv",
+    "size": 318,
+    "sha256": "ee69462668c5ab3f98c2b11b6ed8c9e4c82071c0c0ab9715cc35be9e989b97bb"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_095/cost.json",
+    "size": 126,
+    "sha256": "860cae80b53f3f5c8da04349668a4c69d91448b85b1d56fbfa5bb4c607afdb46"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_095/logweights.npz",
+    "size": 2892,
+    "sha256": "b69a49ec0dafc43857eefa517321091974d3a0d4e837ccc2f794e79911a2c597"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_095/metrics.csv",
+    "size": 320,
+    "sha256": "8eaee356482bf12b314088e18467c6f9907d4a1bd877b853fc4baf24b7a43679"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_124/cost.json",
+    "size": 125,
+    "sha256": "94b6282e03a432fc9aa8be5cdae9a7a9088b91853ed5cb1fb2f7f362c16ed9f9"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_124/logweights.npz",
+    "size": 2909,
+    "sha256": "b22e9519f0c15a8195143abae915b42f50a5c1d6914a9e418e59c512de274a42"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_124/metrics.csv",
+    "size": 325,
+    "sha256": "9a1859651689e37b9c2dccdaee5cba144f889f3bbeacacbcd64d368dc489ce7f"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_143/cost.json",
+    "size": 125,
+    "sha256": "45125208c4c6cb725a7131a1c3967b8d5a471d0e99f5a02bf2074cf139650336"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_143/logweights.npz",
+    "size": 2886,
+    "sha256": "e3b5ef51f0dbda295d59bbb3c95b255d8f8adc2017bad0d6d1b9ceb1f2f8aa39"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_143/metrics.csv",
+    "size": 325,
+    "sha256": "690ce3f9aafda55de8e2a76049341f4f6748907fe4b3adfb1afc06fabd69f1cb"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_145/cost.json",
+    "size": 125,
+    "sha256": "1d566e2f5ba5ee6444bd79f47e989f9fa16dfd15bbb10d568071203640f9f5b1"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_145/logweights.npz",
+    "size": 2890,
+    "sha256": "d94e8fa590f9f34f5385aa096c3f078ccfe7cbfb588efb32db7696de6b4bc4b9"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_145/metrics.csv",
+    "size": 324,
+    "sha256": "744d3dbad768dff61a261f4e1b971dda6175288a0476f47bc9b747983ea880d5"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_155/cost.json",
+    "size": 125,
+    "sha256": "16521361ff22cb9c53f5a5446af2042ef988c7c3df894074b8b99cacd2e7f01b"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_155/logweights.npz",
+    "size": 2911,
+    "sha256": "6e501c76df71eccfe425ecd458af2a11802026f1c94013485de623cae80ca12a"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_155/metrics.csv",
+    "size": 325,
+    "sha256": "f5d68dbd7d484dd4e8c1e3717f0d828d5d097ac85340239044abc1a5371cac36"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_161/cost.json",
+    "size": 125,
+    "sha256": "c19c1f0e2733420b361f1f7219711e6b880b087ca3758b25e3c17279c771a9fd"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_161/logweights.npz",
+    "size": 2911,
+    "sha256": "a28c7acc772e291782324ef9b6049875d16da06eeeff9bfe51f2e175bf0507e6"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_161/metrics.csv",
+    "size": 327,
+    "sha256": "cdb45440fb5252c6ba3e1730ead6ef6d9ae4b4689cd232dd277a405573a8b14c"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_188/cost.json",
+    "size": 125,
+    "sha256": "63c00c678f19d28b200153498b9baacd312279a3a915818bfb0e262a726534bf"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_188/logweights.npz",
+    "size": 2895,
+    "sha256": "fbd78ae10ac9ecc312965fd5a97b400b43a2760e1fb8b9ff854a4b941f5567dc"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_188/metrics.csv",
+    "size": 323,
+    "sha256": "5ee11118bc2114235332c975ef3bd0ee3b1822bb02f45fbb351a9728f949798c"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_193/cost.json",
+    "size": 123,
+    "sha256": "4f22c13859bcef6c0a7706f2ef9692c8259009c82b457d0933251299393e6297"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_193/logweights.npz",
+    "size": 2909,
+    "sha256": "f3802f1b82e7fd3ef5081951f524521436a8e128da0a07f221c52b646ba73021"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_193/metrics.csv",
+    "size": 320,
+    "sha256": "8d486d876a819241b422d86e3f8599edd963f324ab8a7b9573ebb19f31f390cf"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_225/cost.json",
+    "size": 125,
+    "sha256": "19ae0333de5c0e9fc6ae03f0d666a10aa21c4b631712244e2acd383a0ce00f87"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_225/logweights.npz",
+    "size": 2889,
+    "sha256": "ccc259565d0992f5c8286a2669b57b13d720913ceac343b4abf8e6681c1067c8"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_225/metrics.csv",
+    "size": 327,
+    "sha256": "291c1142d5f73d343424545d18129fb3a126657abcb5ee2201fea85cfabd954c"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_227/cost.json",
+    "size": 123,
+    "sha256": "dad985487f6e8925382b8926f07708f7eb51596cbf0fe92d24a5345e69e5539d"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_227/logweights.npz",
+    "size": 2902,
+    "sha256": "a5056975a6f833246ff5716e85a9417545906a56beab5f00516836f69b5e6b07"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact/obs_227/metrics.csv",
+    "size": 326,
+    "sha256": "c90e574524a4dcfe689a83148132362b76237574511f7480ae36927f9ee994db"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_exact.log",
+    "size": 1210,
+    "sha256": "f3e6f0c49e22562ecbca645248747194f8fa772a53847f1067b63e60f88fca21"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_flow/J_conditional_flow.pt",
+    "size": 1220389,
+    "sha256": "7c45a0f388b02099bb3d3fe80fc9cba3dbe163b32b03979bd594dbc60ebba1f2"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_flow/J_generated_samples.npz",
+    "size": 731654,
+    "sha256": "d0f9faa9e77c226116a28a7ef62ea7f3f08cd39e8d749986d779376d923a1a53"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_flow/J_training_log.json",
+    "size": 3253,
+    "sha256": "8d76e9ae1cc4e638fa1db0a6502213e28a1c593c8f39c98f316995bee7ae60af"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_flow/all240_proper_logscores.csv",
+    "size": 27352,
+    "sha256": "7573763d116aaf7d225ac8882cbfb67703c7c12ac5b421304e8bc7b48bae2673"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_flow/audit.json",
+    "size": 1712,
+    "sha256": "c902f23a4c29e4944d40fa65273b9cd318e24221a5e23e0832dfe5df2cad92b0"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_flow/paired_comparisons.csv",
+    "size": 539,
+    "sha256": "d6d63cda252341a0813c95a55015c01871c1fdec5e176fc19fc995a08efca174"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_flow/paired_signflip_holm.csv",
+    "size": 369,
+    "sha256": "d1e4af0b82ea1733df29d14121795020bef713747545ae7ff5448a7d32338a27"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_flow.log",
+    "size": 1775,
+    "sha256": "6cca2c03a13e9502379246b857367a4b0920aaaefa9cf1288cb709594431e927"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/joint_summary.log",
+    "size": 589,
+    "sha256": "4a1aed9b689204f6b66139fa5a14cf636963e1b56e2358b58aa115f86e749bca"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/plan_console.txt",
+    "size": 1498,
+    "sha256": "fe6e176da73083d27dd7475e07208653f36851e965415c66b0ddd787b6b5b656"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/protocol.json",
+    "size": 1497,
+    "sha256": "2046fb3f3cf800b95ea9331e6c7d066b384b5afb1c84e75c4607225754668fe4"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_013/logweights.npz",
+    "size": 7896,
+    "sha256": "ddd4f46e63837ff9a14d38a21ce03fd931d82ede08d0aadb91a37f12ae6b432d"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_013/metrics.csv",
+    "size": 1175,
+    "sha256": "496cec277c40e41c0e866c6c49760732d984444a6ce969eeeaeb5ad04d2e84f5"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_013/physics_cost.json",
+    "size": 125,
+    "sha256": "6534e98e580f1d9aa0b9964b6cd57bc63570b837bdd0e09d8448bb8feb818231"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_015/logweights.npz",
+    "size": 7863,
+    "sha256": "407ec68eb6dec17d55702c025640b5b3b3b3995505a6f5ab95e44b90caee0c02"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_015/metrics.csv",
+    "size": 1178,
+    "sha256": "49798566f14348d6f7f399e8a89e28b7d83cf47f6bd7529a6afcdab1dd723d24"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_015/physics_cost.json",
+    "size": 125,
+    "sha256": "b855fd21b7670ce9bc86972b8e69d671acf9151444f1d64ddd8870fd390ca4d5"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_042/logweights.npz",
+    "size": 7850,
+    "sha256": "af50feebbc0d164838d8d952e8b870cc61038af7264ff3331ce9ca3541d2fd57"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_042/metrics.csv",
+    "size": 1183,
+    "sha256": "70d82f54cefc0710284bd1ef6cb046314eb887689e60e97cc6e18309449caf67"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_042/physics_cost.json",
+    "size": 124,
+    "sha256": "b081e744d70634f46f298203da1ec2c099e770a994aaab5a9adc55cf54f67892"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_059/logweights.npz",
+    "size": 7846,
+    "sha256": "b193d5bc36a2856b98b007946ee87e1cd2a0f00db7db8b30ab66cf6118e451c5"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_059/metrics.csv",
+    "size": 1182,
+    "sha256": "49fe15ed7319ad1e0bc614329ca2e8cf30ff8980c129013f2dc3e0de90bf45c7"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_059/physics_cost.json",
+    "size": 126,
+    "sha256": "36e0dc239d63e4629db357dfe9016f02a2ee80e70acec5146144f44b3d52a250"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_067/logweights.npz",
+    "size": 7813,
+    "sha256": "0641e9a0d9e52f2e4ee4c02a852fe278437e1943340dfd47a81c6e57dd7c6b1f"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_067/metrics.csv",
+    "size": 1180,
+    "sha256": "2638451eb73c4a70ae4ac51b500b474bcaa07116bd645e3068da3a5db96e80db"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_067/physics_cost.json",
+    "size": 123,
+    "sha256": "8252b404a80b066c49a20fe68a7f8d3e90fb1d37420442042cdc78cb69173a5a"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_093/logweights.npz",
+    "size": 7852,
+    "sha256": "b8ad113fb9fa4d8c080d6bc05f68f43c24ae9d0e2b7d18e73a2b7f875d5e86b8"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_093/metrics.csv",
+    "size": 1189,
+    "sha256": "4a4a676084d4c0ce9dd71a7ca267d22067907fff5f81fa88c14ee0e181b842d5"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_093/physics_cost.json",
+    "size": 126,
+    "sha256": "ac84bc1029767cafbf6c4bd3c9091ea1293861e35cf0a8ae6c56d61044ba1378"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_095/logweights.npz",
+    "size": 7898,
+    "sha256": "332e8ebf18745bf334a5d7f530cbd38708e5f080ceb1d5ae56088be1fa2fe9e4"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_095/metrics.csv",
+    "size": 1184,
+    "sha256": "6bb1c5977b4011d6fff4e9b16159680cae02f21ca097dd7dd06a45bca3f77f98"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_095/physics_cost.json",
+    "size": 126,
+    "sha256": "bd2fdba3eee69604d65a5c5f276f844de3a75103c040e35140656db7440c6b9d"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_124/logweights.npz",
+    "size": 7851,
+    "sha256": "79255723b7e2f93106d57b5cd88679148e5957bdf19f8edce3ba2e8119dfa31e"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_124/metrics.csv",
+    "size": 1189,
+    "sha256": "c416979051af162059f1cd0089f64abcc16f959553aa9366a19bd74208cc86b1"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_124/physics_cost.json",
+    "size": 125,
+    "sha256": "b39cb43ae28ce5ba426af21e1d7f55204507e374a88b887ff9b35d07afd5c5b3"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_143/logweights.npz",
+    "size": 7888,
+    "sha256": "17cc7598e5dba0ae2afc4fd96fa68bedfd1e1e1151c660551adf956c8e397959"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_143/metrics.csv",
+    "size": 1193,
+    "sha256": "c42723071b1f8ca6b286c596fe6a0e89f5e9191aef1d5d33fb7a428c2600f819"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_143/physics_cost.json",
+    "size": 125,
+    "sha256": "9aa864e2061e56e0a1195d28c0f0cd607dd2c94c79dc1f7a2c5dab072368c979"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_145/logweights.npz",
+    "size": 7863,
+    "sha256": "292f7c939ba0288b6abd677bb12a98d5d850bb7517daff818b5cb596f8d8f56d"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_145/metrics.csv",
+    "size": 1193,
+    "sha256": "04c8206e929d720183bb95be0c20bc46ad2131c38925120b4c01729f3c836d21"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_145/physics_cost.json",
+    "size": 125,
+    "sha256": "24439164570aa9411471c12e8e6b5e14a51b00f692ccf6dc7e890ae10c349f3c"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_155/logweights.npz",
+    "size": 7883,
+    "sha256": "f64fcd3f2a966789b472f55869d11ade0e2887b71dee7bc4053f568cdd7d4ba8"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_155/metrics.csv",
+    "size": 1186,
+    "sha256": "cc524626d199027dd950e8c50c41a4d835ee3f9b53409139730e87a6a58216e6"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_155/physics_cost.json",
+    "size": 125,
+    "sha256": "b5b88436077c95ab55a1b6846741d227a9facf03e98fb03143de0fe96548865e"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_161/logweights.npz",
+    "size": 7897,
+    "sha256": "f0bdc3022e318daccaa565e1b1b0e5f79c247f0ef16014bac6e77029f809a2d8"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_161/metrics.csv",
+    "size": 1187,
+    "sha256": "2599cf2ebb698c305b015ebe4f4177fa1bb31862c551952c5bf6a23d70dab24f"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_161/physics_cost.json",
+    "size": 125,
+    "sha256": "046a41563a2fdd59186b918089db9ef2067faae47024ef611d531f2381db34af"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_188/logweights.npz",
+    "size": 7890,
+    "sha256": "c889613a31e22dd2a76537df9b52369839fbb098a469df1a89a1b13712f5ddf9"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_188/metrics.csv",
+    "size": 1193,
+    "sha256": "5458bb2b87c04c9de9fd11fc9aad29b8f4b9c2ef0cb392295ef907e4142bcc60"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_188/physics_cost.json",
+    "size": 125,
+    "sha256": "85b602941db1b278cbc5d4c97cf1e3af7d36f59b16ac22e42c321f1847ec6a8d"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_193/logweights.npz",
+    "size": 7893,
+    "sha256": "4613ebfef7688c19285447693df52fa03af1853e0ad3185442a9f317ec7443ed"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_193/metrics.csv",
+    "size": 1188,
+    "sha256": "d85a0c070e0891146bebd67cad8973b7d6d7b348eda685c616399527ab6c594a"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_193/physics_cost.json",
+    "size": 122,
+    "sha256": "9a29637fa87212b324f4019f9df69a7eeb5da71dff4364a57e1d1288d2a629bb"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_225/logweights.npz",
+    "size": 7838,
+    "sha256": "7b304036004ad135a793cf73323dcb9a76e210cb75610bd550ec2a4ebf906ef4"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_225/metrics.csv",
+    "size": 1191,
+    "sha256": "54f600257bfda8e34b52ff9a1c4e3dd7a14e620717876f3dd4fb0c0c14365888"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_225/physics_cost.json",
+    "size": 124,
+    "sha256": "1ae23cdf7b21a2a15b912aad765aa9acf2e1aa0168ec727472656516170ccefe"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_227/logweights.npz",
+    "size": 7869,
+    "sha256": "86fee7132df287944c84142ebe56c6a1d310b18b43f599533134032b263ee64e"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_227/metrics.csv",
+    "size": 1195,
+    "sha256": "b9db27ae7cb39aa9bbcbffbd34e3bbe4fc5bf151923f03b6804438d2b07f8b2d"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/results/obs_227/physics_cost.json",
+    "size": 125,
+    "sha256": "c84236f0895df3df35c96005f6452db8874e8d91ee9b94e85e6a839d3f820a28"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/README.md",
+    "size": 10945,
+    "sha256": "5d4a807cc829d4760ec1e632b05b31a87389a2c17fb9f5cf0e6e05e9ce1a9bc0"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/analysis/C67_C68_resampling_variability.csv",
+    "size": 2189,
+    "sha256": "e1997ac521f69e7a51bbad3a8b998c2ec4b9de6a054116239e9c15f6521c69ba"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/analysis/C68_architecture.png",
+    "size": 51433,
+    "sha256": "9de5669a69973ef5f887ccbf9a48262fc4b51425e564002fd6563d00beb1fa32"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/analysis/C68_mean_ESS.png",
+    "size": 72835,
+    "sha256": "0074da5298898336c6bd9b25bcdb55a6111e5293ab2ed3add94cbe079816cb08"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/analysis/C68_per_observation_differences.png",
+    "size": 61348,
+    "sha256": "cea4ad129c09a3b4704ebc24b47c7b4415d43fde804b0af95e351919d31e1aaa"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/analysis/likelihood_ratio_fit.csv",
+    "size": 360,
+    "sha256": "89a94c920ef7d3596d80fac80004e8b1abfcf03f83720da44708c1017c7b5742"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/analysis/method_summary.csv",
+    "size": 1058,
+    "sha256": "7ebb50e4c44676265fafb5ea3a5733d904ef6bbee5b430e061c17e4758fc6d6c"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/analysis/paired_tests.csv",
+    "size": 906,
+    "sha256": "e00ee4d199c4e564e4120595ae10c0420a4c8bc62ed1dd97875568f27cdc2b45"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/analysis/per_observation.csv",
+    "size": 10924,
+    "sha256": "eb9bad0e625db4cc846d65ea90ae2ac0566115462ef5ef2b971289f18910c717"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/analysis/recompute_console.txt",
+    "size": 619,
+    "sha256": "098a980310d9c7f720da5c1b5ab04987aa9db7a959c8de22d0529783ab543429"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/analysis/summary.json",
+    "size": 6745,
+    "sha256": "c80a37373cadba490423d15ceb79b17088e93b3089d81dc340fee1354ed75591"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/c67_rank_calibration.py",
+    "size": 12995,
+    "sha256": "a5ec6630d5c1aa223caf80f0e9aff930f85db670d3c15a44c4c4fcf6057b2de3"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/c68_likelihood_ratio.py",
+    "size": 8485,
+    "sha256": "44f33a7f4f167b6245f0be294326b608b73d6f85039e34fc9fd63a74c31bd0b9"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/c68_summarize.py",
+    "size": 8351,
+    "sha256": "caf7a4b2fd61781ccae6bcb095b130a3b72bb635ec3c7743112c8aeea25ff93a"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/deps/c64_source/README.md",
+    "size": 6638,
+    "sha256": "6cb39df87803b8ea265f344e1ceda454041bb4fa9b1bdaf5dfcdcc1f3c3dc509"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/deps/c64_source/c32_original/biot_mechanism_audit.py",
+    "size": 13949,
+    "sha256": "75048210d0e6afbb9e3ae3e3324971033713b34df1f16c2257b807aae69e2630"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/deps/c64_source/c32_original/c32_linked_storage_audit.py",
+    "size": 8312,
+    "sha256": "76712a77bd39a121ea20be1e68d12b2ed4e6009342e1863d777b9728547f9186"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/deps/c64_source/c64_conditional_flow.py",
+    "size": 8302,
+    "sha256": "b54c388e9e34790b433a96fd0a1d326f5ad73c02771f769385720d9a0fa19be3"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/deps/c64_source/c64_reference_posterior.py",
+    "size": 7952,
+    "sha256": "947823cf7fa0c19b01008e72fbb58126082d3abfe14127a127b684e59579c80c"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/deps/c64_source/flow_results/H_conditional_flow.pt",
+    "size": 1158949,
+    "sha256": "ad538dca533b64ae4321a98bb3e4132cec8433e8aba15ff6a467f80aacb6ce95"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/deps/c64_source/flow_results/M_conditional_flow.pt",
+    "size": 1166629,
+    "sha256": "07ea24215483a57fc2997a301ffc51c21088718a57e303ba2bd1d0c1c1affd2e"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/deps/c64_source/flow_results/flow_summary.json",
+    "size": 1099,
+    "sha256": "c5978022d7a2f961304b1ff0399b422b78e45db08f9969f818ab0c37be8f2769"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/deps/c64_source/flow_results/joint_dataset.npz",
+    "size": 4647828,
+    "sha256": "cd12c39ae0a8d1201a384eb23d3c2487ee72a64d3554c3f10009591447f25906"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/deps/c64_source/flow_results/nonlinear_check.json",
+    "size": 1733,
+    "sha256": "b9485dea38a8cf2fb7d40c951ff42044c54ad5fabe1d51727abb0555c1531c6f"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/deps/c64_source/flow_results/posterior_validation.json",
+    "size": 1588,
+    "sha256": "3de7b6a6b355dba9006e39cebaf00e83496c3a72fae97a0b9012ebe7abae97e5"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/deps/c64_source/results/H_posterior_samples.npz",
+    "size": 5260812,
+    "sha256": "61d8e180ebc9bb333f3c98c7825d42e75c2b934206cb06e2aba4ff09e5b3840b"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/deps/c64_source/results/M_posterior_samples.npz",
+    "size": 4134764,
+    "sha256": "d088f67fa14c7bb4a23993f1fe7c27a4f293380d2538f267219e754d31a646dd"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/deps/c67_baseline_snapshot.npz",
+    "size": 39984,
+    "sha256": "34b6c2fe51f31ef9d3500e7a5b41c2951a42eb38bd6ea351e94b979061d7ee11"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/requirements.txt",
+    "size": 210,
+    "sha256": "fea62911d4b9533debba799e44a7f642958aa834a7a69518c8d5573065b5a704"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_000/logweights.npz",
+    "size": 10569,
+    "sha256": "0273ff86e9c77f77c8dfdd9a095a3ef75be0e4f7de9d175fec14dbe08b858b29"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_000/result.json",
+    "size": 5548,
+    "sha256": "8fb066535b0672dbd7c4a6d8f336e2cef1d82ac76d7a7163e0d260b68b5f2d89"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_003/logweights.npz",
+    "size": 10572,
+    "sha256": "79f3b7ddef8bc5bd73d3b1ed7d7248c16bff013a666b2f8375c75d920dca61d1"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_003/result.json",
+    "size": 6480,
+    "sha256": "2688b15977037a9bf7f41265c5d357d7f4c7bf842edb64bf4e4b856fa8a5ef5b"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_007/logweights.npz",
+    "size": 10567,
+    "sha256": "50b8a1be21d5f5957a14527c74c318c1d695cbf4588faa50b6852095d149e8a8"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_007/result.json",
+    "size": 6481,
+    "sha256": "bac06dc93dd60ab8aaaf15774df01f72ef579536132a1a752b47676f5c5e5cae"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_011/logweights.npz",
+    "size": 10600,
+    "sha256": "e82f5dbc583099764b1e05ca5657fddcfcc000c07c3cdafbc2990eb2e417b03c"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_011/result.json",
+    "size": 5565,
+    "sha256": "eb8481c2659dcea65945c12ae43c2b2df8b08c14ea1fd14af422bc97c4a9eeed"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_018/logweights.npz",
+    "size": 10592,
+    "sha256": "54fd240cee925c9219641d1b1d4f024641913a81d7f107210cdcb9d9e6c93b25"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_018/result.json",
+    "size": 5570,
+    "sha256": "75f3f4aac1934339c801f7bbfbc6ef7998863579297417f39a5a907ce922f45a"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_027/logweights.npz",
+    "size": 10580,
+    "sha256": "18f08e4f6c730a424ebd28d612f5ed9d54867c1622271a3a2b5270cc23be3374"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_027/result.json",
+    "size": 5879,
+    "sha256": "524069d081cefa71b7a0c32cefb739b52809f6ad82c679da9a46a8afe6ec8fbb"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_039/logweights.npz",
+    "size": 10600,
+    "sha256": "7ea14ad3071c485f6cf3e82dca08053db72d60a5cfc1128f73595f31faa20439"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_039/result.json",
+    "size": 6122,
+    "sha256": "967c7e9be732c239e68139c3d6f3ca2420630a66a0c8b100f24fa99df378406d"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_055/logweights.npz",
+    "size": 10515,
+    "sha256": "2282367d69475a80367045cc2361a76cf5ca84211d3b41e008d42284179353f9"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_055/result.json",
+    "size": 6178,
+    "sha256": "b241696fe8600cdfa4ef13fedb16833354b40170f250e652c7a745cfd184fe27"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_076/logweights.npz",
+    "size": 10622,
+    "sha256": "2552ad2ce852be7ef095c03757ff5bab334e7b99f16851859f9e08b811a933a7"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_076/result.json",
+    "size": 6595,
+    "sha256": "a30885ab9d01f876482e4f4fec200af165c104afdc8c39411a5f271054a0cbd9"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_101/logweights.npz",
+    "size": 10538,
+    "sha256": "e0f329f692411ab6a4725e6795c9a088ccfbfa3d036d59ae86174200f57ec86e"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_101/result.json",
+    "size": 6212,
+    "sha256": "2c17db05b380bd6649ca185f3ded87476541065a6eed7a762144ac5c69e3b56f"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_130/logweights.npz",
+    "size": 10634,
+    "sha256": "c0e9305cb1566ad761c8c55bbe0b5030468e0c54b2fb353bff85820406ffbd90"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_130/result.json",
+    "size": 6461,
+    "sha256": "0c4482a05798d7750fd0e580a4602cd57453fcc584fc575089a7d48dbc489868"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_201/logweights.npz",
+    "size": 10543,
+    "sha256": "14dc38d8443164f8abb7c65121d6c8b1b74425b9da09d86ecdd96d45fb030e2c"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/runs/obs_201/result.json",
+    "size": 6028,
+    "sha256": "eb9b5c6d1863350b2cdd2c1640f765e811b55a65bc5ff1b0c074107d409f97d4"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/source/C68_LikelihoodRatio_20261111/verify_frozen.py",
+    "size": 1764,
+    "sha256": "99107fcf2130886e72347f20bcba71e1b696a5a65d532fdddf4f3baeee09bbd8"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/summarize.log",
+    "size": 2361,
+    "sha256": "42d9efc871827e3bb22755a5e223d223a4584503887426e46ae2574e19cd2755"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/train.log",
+    "size": 130,
+    "sha256": "aa8e1f7471d86919dd96aa93584db4a74058b7673e89c3129d25a60ef14669e6"
+  },
+  {
+    "path": "deps/C72_InformationGeometry_Pilot_20261111/inputs/C69_Amortized_Likelihood_20261111/verify_frozen.py",
+    "size": 3186,
+    "sha256": "cdea12501347ba49626acfe466e4df9aad0226dc0a2f20abfe26b437d86ea9f8"
+  },
+  {
+    "path": "dual_checkpoints/HMBlockSVDWhiten_seed641133.pt",
+    "size": 1220723,
+    "sha256": "669977d2ec2907941dcdffc28fb2b67428b2f93e0a753e623000c24e858a62c9"
+  },
+  {
+    "path": "dual_checkpoints/HMBlockSVDWhiten_seed641133_log.json",
+    "size": 2520,
+    "sha256": "f55cf76e11ca90436954db4153f65aadc2fae9ee376edab0b368fd2dd98a7cdc"
+  },
+  {
+    "path": "dual_checkpoints/HMBlockSVDWhiten_seed641134.pt",
+    "size": 1220723,
+    "sha256": "04472b7f83acd3d941947d1b1f6e8f0c284e1db68eb5d8e605cbb6eb53fa9ab3"
+  },
+  {
+    "path": "dual_checkpoints/HMBlockSVDWhiten_seed641134_log.json",
+    "size": 2512,
+    "sha256": "7bd6dac357f0980fb3ea38dab3b892c33a93f23b93898a7dfff9bb7001bb1a89"
+  },
+  {
+    "path": "dual_checkpoints/HMBlockSVDWhiten_seed641135.pt",
+    "size": 1220723,
+    "sha256": "9672de52e4ceb9c5378ae32f920df8aaf078a3c5e19c52e5ee573ee7a68a5957"
+  },
+  {
+    "path": "dual_checkpoints/HMBlockSVDWhiten_seed641135_log.json",
+    "size": 2516,
+    "sha256": "1747f66c78f12bec5aabfff890d30d3bb231a1dd591d9c92c1e228140a04e6b1"
+  },
+  {
+    "path": "dual_checkpoints/HMBlockSVD_seed641133.pt",
+    "size": 1220479,
+    "sha256": "e4e70112c350f4d18aa535a6f14dbda7a6bfa0f7b93f6d71901d19441941f5d1"
+  },
+  {
+    "path": "dual_checkpoints/HMBlockSVD_seed641133_log.json",
+    "size": 2510,
+    "sha256": "0b1cbe4289692d5d1d02efd66ca69e561a257d7f2e6b0f9c2b4f224f54bc86f5"
+  },
+  {
+    "path": "dual_checkpoints/JointSVDWhiten_seed641133.pt",
+    "size": 1220663,
+    "sha256": "9a5fb22363180a8fee9eb48a21e88b738c412e5c7e71247cef182d26d755d0a4"
+  },
+  {
+    "path": "dual_checkpoints/JointSVDWhiten_seed641133_log.json",
+    "size": 2513,
+    "sha256": "3f7de5cbc2ae628c57a31326562245977ded0165d2ed33737c9b390df152b011"
+  },
+  {
+    "path": "dual_checkpoints/JointSVDWhiten_seed641134.pt",
+    "size": 1220663,
+    "sha256": "632a64620b650c64daa0d820c53dbf69aeab4c64350014d0672239665e1eba14"
+  },
+  {
+    "path": "dual_checkpoints/JointSVDWhiten_seed641134_log.json",
+    "size": 2507,
+    "sha256": "33bd6b7c440aef9971162e3022fa68b10c44e9c23b9660a9595ab31804fbdaa8"
+  },
+  {
+    "path": "dual_checkpoints/JointSVDWhiten_seed641135.pt",
+    "size": 1220663,
+    "sha256": "4ef223779440ad723b709fd16b05988448aee2230ddb14d48468c4d7e7cc68ed"
+  },
+  {
+    "path": "dual_checkpoints/JointSVDWhiten_seed641135_log.json",
+    "size": 2510,
+    "sha256": "f5c58c0814a9d033649bef0b657d0c1f0655cbcf7aeb53e9d0f525f2cf7a25ed"
+  },
+  {
+    "path": "dual_checkpoints/JointSVD_seed641133.pt",
+    "size": 1220419,
+    "sha256": "be9f6d4971272cba22f83137301630c0a25a9dcde26700947ea4c058132af15e"
+  },
+  {
+    "path": "dual_checkpoints/JointSVD_seed641133_log.json",
+    "size": 2502,
+    "sha256": "51309821d30ffae2b66103e34bab1e7ec8b3eea0154d7718085a0c4b6c904803"
+  },
+  {
+    "path": "dual_checkpoints/RandomBlockWhiten_seed641133.pt",
+    "size": 1220753,
+    "sha256": "14ab2a24ac425d354aac44e7aa858efbf49a225c1b90912d1ca0fea78b5dda4f"
+  },
+  {
+    "path": "dual_checkpoints/RandomBlockWhiten_seed641133_log.json",
+    "size": 2516,
+    "sha256": "879839207184cc9977983d962b914af60b0ed061fdf8ad624750f88f84ab59fc"
+  },
+  {
+    "path": "dual_checkpoints/RandomBlockWhiten_seed641134.pt",
+    "size": 1220753,
+    "sha256": "74462318b999ce98d375f05d5b9b80da93f6f98f5465b0a6a2fd021dd105ee7b"
+  },
+  {
+    "path": "dual_checkpoints/RandomBlockWhiten_seed641134_log.json",
+    "size": 2511,
+    "sha256": "13e9c34e8eebb157a99ddda4e12496691357c1715ae01f4d0915faff997d1e2d"
+  },
+  {
+    "path": "dual_checkpoints/RandomBlockWhiten_seed641135.pt",
+    "size": 1220753,
+    "sha256": "223d4b310aa7a3492bfccec2f36fbc4bd80ae6624d45d58ef341b39754959bae"
+  },
+  {
+    "path": "dual_checkpoints/RandomBlockWhiten_seed641135_log.json",
+    "size": 2525,
+    "sha256": "efb85179cad5cee24d5edbc69c596a81bcf634ca8c798ad5d7ce5b5d17b37659"
+  },
+  {
+    "path": "dual_checkpoints/RandomCtx_seed641133.pt",
+    "size": 1220449,
+    "sha256": "d200f44e1e8ea2c8927b832037710432903502ca3e63df17975e82b89504d350"
+  },
+  {
+    "path": "dual_checkpoints/RandomCtx_seed641133_log.json",
+    "size": 2511,
+    "sha256": "25b23c2e1f9e2d8d456a156700a30bc2d7ebe6624474fdd1b8e0e45ea4490adc"
+  },
+  {
+    "path": "dual_checkpoints/SensorDiagNorm_seed641133.pt",
+    "size": 1220663,
+    "sha256": "89a863b30d126e0beaccd359c564b1d7d269659cbdb69b6058a7c4651b123290"
+  },
+  {
+    "path": "dual_checkpoints/SensorDiagNorm_seed641133_log.json",
+    "size": 2512,
+    "sha256": "9d6ba93a2549d78e544a3695f24d161dbcedcea5d83f08642232e5672bf0c2fe"
+  },
+  {
+    "path": "dual_checkpoints/SensorDiagNorm_seed641134.pt",
+    "size": 1220663,
+    "sha256": "3f2cf86056736b593376f85c626124ba38f1ebfcbeb65cf17f159fac6ae77904"
+  },
+  {
+    "path": "dual_checkpoints/SensorDiagNorm_seed641134_log.json",
+    "size": 2514,
+    "sha256": "c2e2e48e7a26d872766219b5eba8b97eadddf4f655c6aff2da51523154df3de2"
+  },
+  {
+    "path": "dual_checkpoints/SensorDiagNorm_seed641135.pt",
+    "size": 1220663,
+    "sha256": "63cfc1fbb848e2366f6f2603ff2c25307223de66e55442c8d2e39b466c1e7b7a"
+  },
+  {
+    "path": "dual_checkpoints/SensorDiagNorm_seed641135_log.json",
+    "size": 2515,
+    "sha256": "3e794feddb599cb60a04a532d6b287e67a5ca4185c874752b62087ef7f6b694d"
+  },
+  {
+    "path": "dual_forward_audit.json",
+    "size": 146,
+    "sha256": "28ba8991dd45286e928369af5a98869e662a341d74ee46cc4a444acb3e0d7162"
+  },
+  {
+    "path": "dual_fresh2048_all_seeds.csv",
+    "size": 330429,
+    "sha256": "940afc99a34bc7cfd5288d4c4d865c3beeddab1cf5f9057bbb4adc07f89289a8"
+  },
+  {
+    "path": "dual_fresh2048_mean_seeds.csv",
+    "size": 129574,
+    "sha256": "39d4d86a71be0a3349f1a0c07bdf6a152c089e804a086df5e0701a731b6d00bc"
+  },
+  {
+    "path": "dual_fresh2048_primary_statistics.csv",
+    "size": 847,
+    "sha256": "23e4eed3419811428d6d093bf5eae0855fb0999cce60dcd39f122f4a53fb6949"
+  },
+  {
+    "path": "dual_fresh2048_seed_stability.csv",
+    "size": 519,
+    "sha256": "91d455b737e20f0c3552443fbf3f68c40047fbced3e76607183a7374bbb5ba4a"
+  },
+  {
+    "path": "dual_fresh2048_summary.json",
+    "size": 2322,
+    "sha256": "8010595b7b5e34d29e3f775c63dd0742e576844084593c3237e67439b4a3200f"
+  },
+  {
+    "path": "dual_fresh2048_with_C69_baseline.csv",
+    "size": 149619,
+    "sha256": "584a6db7ea1bb80e0cc97cbecf02752a7cbba1523b73b584a9da221d2fd14ffc"
+  },
+  {
+    "path": "dual_independent2048.npz",
+    "size": 4574733,
+    "sha256": "400b02e1da86877db549e1626585068a00c23879814b13f3f9ae672ae5a85de7"
+  },
+  {
+    "path": "dual_validation_seed641133.csv",
+    "size": 438,
+    "sha256": "fc96286fac5a356d296bc1138889c3b7007e8060a57a29ada7602e6d700d9d19"
+  },
+  {
+    "path": "dual_validation_seed641134.csv",
+    "size": 801,
+    "sha256": "5887fbbb89f0ea247bf8487bb222d87e43013d94d97c28a46eabda7944b69414"
+  },
+  {
+    "path": "dual_validation_seed641135.csv",
+    "size": 801,
+    "sha256": "3862ea668ed5b7b25cc28b9379465905ffc0607a84f131248ee55ada2152401b"
+  },
+  {
+    "path": "fresh2048_all_models.csv",
+    "size": 290093,
+    "sha256": "da70602822b0855b69676550c16418d8f5c31266c2c7ec7ea4e2b848ef47ead8"
+  },
+  {
+    "path": "fresh2048_mean_across_seeds.csv",
+    "size": 129562,
+    "sha256": "01dd46162c95003b034a8285548691530fb50fb5681e56b16f37c7684b0b2e58"
+  },
+  {
+    "path": "fresh2048_primary_paired_tests.csv",
+    "size": 597,
+    "sha256": "d0a2e841f42e05c9909c5fbed6351791c040acf2036c913a6bd9d495d71a4cc0"
+  },
+  {
+    "path": "fresh2048_seed_replicates.csv",
+    "size": 583,
+    "sha256": "287272aa2f8593b279812b68a5420103706b70fcd05381fec64d0408cf968fc7"
+  },
+  {
+    "path": "fresh2048_summary.json",
+    "size": 1977,
+    "sha256": "649d43becd37e89a7b4fb56b8e3b297f65b0cafd28eaf1b61a61ce0831584ff2"
+  },
+  {
+    "path": "fresh256_all_models.csv",
+    "size": 36235,
+    "sha256": "933e00e112f3fddefcb9d5154461672066618a4d3edda84ca041c8e7eaf0b731"
+  },
+  {
+    "path": "fresh256_mean_across_seeds.csv",
+    "size": 15985,
+    "sha256": "d458b376aabcb40c39f02036bbe31b45065e76c587af5826ee081ce66642e0ad"
+  },
+  {
+    "path": "fresh256_primary_paired_tests.csv",
+    "size": 638,
+    "sha256": "e7a32d8340f56f87b5d08141686f3a90d119a7dd46b17030967d16228af3aa83"
+  },
+  {
+    "path": "fresh256_seed_replicates.csv",
+    "size": 581,
+    "sha256": "61397f265210352a30da4628c63aa60f7bff584319fe983dcbf0fdeed6b608db"
+  },
+  {
+    "path": "fresh256_summary.json",
+    "size": 2014,
+    "sha256": "2bd16f5146d7f42931d18ac678e0a603cae29e69b13af1a3c6ee886c2f36a188"
+  },
+  {
+    "path": "fresh_generator_audit.json",
+    "size": 160,
+    "sha256": "40616174c00ca8a14edcb51bea5bf27aea80b4b8deeb946be7c3ce864d67221a"
+  },
+  {
+    "path": "independent2048.npz",
+    "size": 4574832,
+    "sha256": "39f928973d422102a692a7241b004c94ccbd09d98548fb996965c76da45aa780"
+  },
+  {
+    "path": "independent256.npz",
+    "size": 572944,
+    "sha256": "18b0dc6020525a49f8f1b01e57a8ae98a1e2d9bd8dccfb256329ad6d5cc12ce0"
+  },
+  {
+    "path": "validation_seed641133.csv",
+    "size": 265,
+    "sha256": "071062fe5d2fcc4409ecccb38d7be5f7ecd41a1ed14152e28b5e3b8c6f9dba3c"
+  },
+  {
+    "path": "validation_seed641134.csv",
+    "size": 764,
+    "sha256": "d2b8b5856a7f9ef696cfd45482c961ac4e197223584240bb9a481d878b5ffc75"
+  },
+  {
+    "path": "validation_seed641135.csv",
+    "size": 764,
+    "sha256": "4a5142cc1fd7d27898027fbef57e469d33760abc53c3273ed24e012cd04b3ec8"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "summary": {
+    "mode": "FisherSpline",
+    "seed": 641135,
+    "n_parameters": 303280,
+    "epochs": 8,
+    "best_epoch": 2,
+    "val_nll": 238.1911163330078,
+    "train_seconds": 3.79,
+    "inverse_error": 1.1622905731201172e-06,
+    "ld_consistency_error": 1.9073486328125e-06,
+    "checkpoint": "/mnt/data/C74_P4_PhysicsAllocated_Spline_20261111/checkpoints/FisherSpline_seed641135.pt"
+  },
+  "training": [
+    {
+      "epoch": 1,
+      "validation_nll": 239.1067352294922
+    },
+    {
+      "epoch": 2,
+      "validation_nll": 238.1911163330078
+    },
+    {
+      "epoch": 3,
+      "validation_nll": 238.4483184814453
+    },
+    {
+      "epoch": 4,
+      "validation_nll": 239.30838012695312
+    },
+    {
+      "epoch": 5,
+      "validation_nll": 240.4872589111328
+    },
+    {
+      "epoch": 6,
+      "validation_nll": 241.62838745117188
+    },
+    {
+      "epoch": 7,
+      "validation_nll": 243.0934600830078
+    },
+    {
+      "epoch": 8,
+      "validation_nll": 245.4189910888672
+    }
+  ]
+}

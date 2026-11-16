@@ -1,0 +1,9 @@
+{
+  "n": 2048,
+  "seed": 731900,
+  "physics": "C32 M1-linked Biot",
+  "alpha": 0.7,
+  "load": "pulse",
+  "error_count": 0,
+  "elapsed_sec": 14.704359531402588
+}

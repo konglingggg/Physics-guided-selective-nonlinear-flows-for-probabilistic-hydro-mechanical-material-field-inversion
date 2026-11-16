@@ -1,0 +1,11 @@
+section,item,lr,mean_val_nll,sd_val_nll,best_epoch_median,n_cases,fisher_mean_nll,reference_mean_nll,delta,ci_low,ci_high,win_frequency,p
+lr_audit,FisherSpline,0.0008,238.2187,0.0407,2.0,,,,,,,,
+lr_audit,FullSplineMatched,0.0001,240.1905,0.145,11.0,,,,,,,,
+lr_audit,FullSplineMatched,0.0002,240.1801,0.1388,6.0,,,,,,,,
+lr_audit,FullSplineMatched,0.0008,240.0504,0.0105,2.0,,,,,,,,
+lr_audit,FullSplineWide,0.0001,240.105,0.1017,6.0,,,,,,,,
+lr_audit,FullSplineWide,0.0002,240.1247,0.0819,3.0,,,,,,,,
+lr_audit,FullSplineWide,0.0008,240.9336,0.1864,1.0,,,,,,,,
+cohort_C,FullSplineMatched,,,,,1024,236.47,238.34201,-1.872,-2.0345,-1.7142,0.8076,0.0001999600079984003
+cohort_C,FullSplineWide,,,,,1024,236.47,238.29723,-1.8272,-2.0062,-1.6602,0.7607,0.0001999600079984003
+cohort_C,FrozenC73,,,,,1024,236.47,238.95697,-2.487,-2.9473,-2.1211,0.6709,0.0001999600079984003

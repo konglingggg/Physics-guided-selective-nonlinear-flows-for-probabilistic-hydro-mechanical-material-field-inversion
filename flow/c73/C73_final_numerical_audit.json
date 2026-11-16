@@ -1,0 +1,9 @@
+{
+  "original_C32_solver": true,
+  "n_frozen_test_material_truths": 2048,
+  "original_C69_jointflow_NLL": 246.75619506835938,
+  "all_trainable_parameters_equal_302848": true,
+  "float32_forward_inverse_max_abs_error": 4.76837158203125e-07,
+  "log_density_finite_and_normalized_by_same_90_obs_physics_Gaussian": true,
+  "NLL_C73_HM_physical_SVD": 239.57742302246095
+}

@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "mode": "WeakSpline",
+    "seed": 641133,
+    "parameters": 303280,
+    "best_epoch": 4,
+    "val_nll": 241.54660034179688,
+    "seconds": 4.012,
+    "inverse_error": 9.5367431640625e-07,
+    "logdet_consistency_error": 1.0132789611816406e-06,
+    "checkpoint": "/mnt/data/C74_P5_StrongBaselines_20261111/checkpoints/WeakSpline_seed641133.pt"
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "val_nll": 247.05397033691406
+    },
+    {
+      "epoch": 2,
+      "val_nll": 242.88177490234375
+    },
+    {
+      "epoch": 3,
+      "val_nll": 241.72308349609375
+    },
+    {
+      "epoch": 4,
+      "val_nll": 241.54660034179688
+    },
+    {
+      "epoch": 5,
+      "val_nll": 241.7976837158203
+    },
+    {
+      "epoch": 6,
+      "val_nll": 242.3573455810547
+    },
+    {
+      "epoch": 7,
+      "val_nll": 243.0950469970703
+    },
+    {
+      "epoch": 8,
+      "val_nll": 244.04974365234375
+    }
+  ]
+}

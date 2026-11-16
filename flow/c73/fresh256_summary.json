@@ -1,0 +1,57 @@
+{
+  "fresh_seed": 731255,
+  "n_fresh_truths": 256,
+  "n_train_initializations": 3,
+  "independent_test_selected_after_validation": true,
+  "metric": "proper conditional NLL up to universal Gaussian constant; smaller better",
+  "means": {
+    "Gaussian": 256.7752685546875,
+    "C69_JointFlow": 247.44212341308594,
+    "Fisher": 242.9109649658203,
+    "HMComplementary": 242.5832977294922,
+    "HM_Route": 242.19692993164062,
+    "HM_ShuffledRoute": 242.58250427246094
+  },
+  "primary_paired_tests": [
+    {
+      "candidate": "HM_Route",
+      "reference": "Fisher",
+      "n_independent_Biot_truths": 256,
+      "mean_NLL_delta": -0.7140368819236755,
+      "ci95_low": -1.7595058158040047,
+      "ci95_high": 0.12887313663959493,
+      "better_truths": 132,
+      "mean_base": 242.9109649658203,
+      "mean_candidate": 242.19692993164062,
+      "signflip_p": 0.1377413911630523,
+      "holm_p": 0.41322417348915697
+    },
+    {
+      "candidate": "HM_Route",
+      "reference": "HMComplementary",
+      "n_independent_Biot_truths": 256,
+      "mean_NLL_delta": -0.38637709617614746,
+      "ci95_low": -1.3069396659731864,
+      "ci95_high": 0.3280617743730543,
+      "better_truths": 134,
+      "mean_base": 242.5832977294922,
+      "mean_candidate": 242.19692993164062,
+      "signflip_p": 0.43147303293544154,
+      "holm_p": 0.8629460658708831
+    },
+    {
+      "candidate": "HM_Route",
+      "reference": "HM_ShuffledRoute",
+      "n_independent_Biot_truths": 256,
+      "mean_NLL_delta": -0.38556694984436035,
+      "ci95_low": -1.3220120683312415,
+      "ci95_high": 0.33569413274526594,
+      "better_truths": 135,
+      "mean_base": 242.58250427246094,
+      "mean_candidate": 242.19692993164062,
+      "signflip_p": 0.43641022436097743,
+      "holm_p": 0.8629460658708831
+    }
+  ],
+  "disclaimer": "Synthetic original C32 Biot independent field/noise cohort at same physics regime. Conditional heldout log-score, not exact nonlinear posterior calibration, and does not establish method originality."
+}
