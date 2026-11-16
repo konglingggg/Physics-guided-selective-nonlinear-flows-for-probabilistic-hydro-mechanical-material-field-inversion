@@ -1,0 +1,7 @@
+model,mean_nll
+Nominal tangent Gaussian,255.709
+RandomSpline (24 positions),241.535
+Frozen dual-geometry affine flow,240.399
+Rank-balanced affine flow,240.087
+FisherSpline (24 high-information positions),237.811
+HMInfoSpline (12 + 12 modality allocation),237.802

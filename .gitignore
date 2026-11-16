@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.idea/
+data/cohorts/*.npz
+checkpoints/*.pt
+checkpoints/*.pth
+results/figures/
+results/models/

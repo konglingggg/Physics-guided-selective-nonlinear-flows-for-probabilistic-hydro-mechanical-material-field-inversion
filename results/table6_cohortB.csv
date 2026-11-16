@@ -1,0 +1,8 @@
+model,nll
+Frozen dual-geometry affine,240.560
+FullSplineMatched,240.040
+FullSplineWide (tuned),239.997
+WeakSpline (24 directions),241.607
+RandomSpline (24 directions),241.758
+FisherSpline (24 directions),238.162
+HMInfoSpline (24 directions),238.149

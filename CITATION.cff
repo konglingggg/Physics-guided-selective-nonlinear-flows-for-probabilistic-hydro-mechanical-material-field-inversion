@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the manuscript below."
+title: "Physics-guided selective nonlinear flows for probabilistic hydro-mechanical material-field inversion"
+authors:
+  - family-names: "Zhang"
+    given-names: "Kai"
+type: software
+license: MIT
+year: 2026
