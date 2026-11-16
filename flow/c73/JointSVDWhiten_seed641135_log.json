@@ -7,7 +7,7 @@
     "val_nll": 242.0489959716797,
     "old_C64_pilot_nll": 239.57571411132812,
     "seconds": 5.729585647583008,
-    "checkpoint": "/mnt/data/C73_HM_Information_Routing_20261111/dual_checkpoints/JointSVDWhiten_seed641135.pt"
+    "checkpoint": "JointSVDWhiten_seed641135.pt"
   },
   "training": [
     {

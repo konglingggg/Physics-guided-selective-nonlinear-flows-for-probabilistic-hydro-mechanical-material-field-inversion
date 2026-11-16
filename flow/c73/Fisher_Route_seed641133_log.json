@@ -7,7 +7,7 @@
     "best_val_nll": 242.24029541015625,
     "old_C64_test_nll_exploratory": 239.41127014160156,
     "seconds": 7.673357009887695,
-    "checkpoint": "/mnt/data/C73_HM_Information_Routing_20261111/checkpoints/Fisher_Route_seed641133.pt"
+    "checkpoint": "Fisher_Route_seed641133.pt"
   },
   "epochs": [
     {

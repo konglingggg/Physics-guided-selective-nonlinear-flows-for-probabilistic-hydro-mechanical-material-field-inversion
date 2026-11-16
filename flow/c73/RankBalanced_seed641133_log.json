@@ -7,7 +7,7 @@
     "best_val_nll": 242.29483032226562,
     "old_C64_test_nll_exploratory": 239.48599243164062,
     "seconds": 6.068281650543213,
-    "checkpoint": "/mnt/data/C73_HM_Information_Routing_20261111/checkpoints/RankBalanced_seed641133.pt"
+    "checkpoint": "RankBalanced_seed641133.pt"
   },
   "epochs": [
     {

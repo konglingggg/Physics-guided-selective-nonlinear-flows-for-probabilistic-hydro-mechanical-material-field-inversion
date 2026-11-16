@@ -3,6 +3,8 @@
 Code, checkpoints and frozen result tables for the manuscript submitted to
 *Computational Geosciences* (Springer Nature).
 
+Repository: <https://github.com/konglingggg/Physics-guided-selective-nonlinear-flows-for-probabilistic-hydro-mechanical-material-field-inversion>
+
 This repository was assembled from the project's Stage-7 evidence archive
 (`AI4THMC_CG_Stage7_SpringerNature_FULL_Evidence_20261112.zip`, SHA-256
 `92d329c4f11148306163e28e8e8e8dc483b74132f6b1b2197663cf1d23ec4b3d`),
@@ -85,6 +87,8 @@ sections of the CSV.
 ## Reproduce
 
 ```bash
+git lfs install
+git lfs pull
 pip install -r requirements.txt
 ```
 

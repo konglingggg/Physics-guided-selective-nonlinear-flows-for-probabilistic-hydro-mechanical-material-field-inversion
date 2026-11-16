@@ -7,7 +7,7 @@
     "best_val_nll": 241.86932373046875,
     "old_C64_test_nll_exploratory": 239.4964141845703,
     "seconds": 6.873661041259766,
-    "checkpoint": "/mnt/data/C73_HM_Information_Routing_20261111/checkpoints/HMComplementary_seed641134.pt"
+    "checkpoint": "HMComplementary_seed641134.pt"
   },
   "epochs": [
     {

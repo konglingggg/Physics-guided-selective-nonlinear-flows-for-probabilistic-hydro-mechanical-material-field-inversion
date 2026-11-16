@@ -9,7 +9,7 @@
     "train_seconds": 3.88,
     "inverse_error": 1.1622905731201172e-06,
     "ld_consistency_error": 1.9073486328125e-06,
-    "checkpoint": "/mnt/data/C74_P4_PhysicsAllocated_Spline_20261111/checkpoints/HMInfoSpline_seed641135.pt"
+    "checkpoint": "HMInfoSpline_seed641135.pt"
   },
   "training": [
     {

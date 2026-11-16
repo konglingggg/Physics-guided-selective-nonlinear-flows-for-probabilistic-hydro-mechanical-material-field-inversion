@@ -8,7 +8,7 @@
     "seconds": 13.258,
     "inverse_error": 1.2516975402832031e-06,
     "logdet_consistency_error": 5.245208740234375e-06,
-    "checkpoint": "/mnt/data/C74_P5_StrongBaselines_20261111/checkpoints/FullSplineMatched_seed641133.pt"
+    "checkpoint": "FullSplineMatched_seed641133.pt"
   },
   "history": [
     {

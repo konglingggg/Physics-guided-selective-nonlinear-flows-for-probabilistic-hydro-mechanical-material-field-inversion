@@ -7,7 +7,7 @@
     "val_nll": 242.03372192382812,
     "old_C64_pilot_nll": 238.9686737060547,
     "seconds": 6.343219518661499,
-    "checkpoint": "/mnt/data/C73_HM_Information_Routing_20261111/dual_checkpoints/RandomCtx_seed641133.pt"
+    "checkpoint": "RandomCtx_seed641133.pt"
   },
   "training": [
     {

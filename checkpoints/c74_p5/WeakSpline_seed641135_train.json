@@ -8,7 +8,7 @@
     "seconds": 3.898,
     "inverse_error": 7.152557373046875e-07,
     "logdet_consistency_error": 9.5367431640625e-07,
-    "checkpoint": "/mnt/data/C74_P5_StrongBaselines_20261111/checkpoints/WeakSpline_seed641135.pt"
+    "checkpoint": "WeakSpline_seed641135.pt"
   },
   "history": [
     {

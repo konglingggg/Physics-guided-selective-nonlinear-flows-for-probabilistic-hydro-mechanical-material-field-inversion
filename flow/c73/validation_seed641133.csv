@@ -1,2 +1,2 @@
 mode,seed,n_parameters,best_epoch,best_val_nll,old_C64_test_nll_exploratory,seconds,checkpoint
-Fisher_Route,641133,302848,4,242.24029541015625,239.41127014160156,7.673357009887695,/mnt/data/C73_HM_Information_Routing_20261111/checkpoints/Fisher_Route_seed641133.pt
+Fisher_Route,641133,302848,4,242.24029541015625,239.41127014160156,7.673357009887695,Fisher_Route_seed641133.pt
